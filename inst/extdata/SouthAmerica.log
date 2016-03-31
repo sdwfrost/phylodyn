@@ -1,0 +1,477 @@
+IQ-TREE multicore version 1.4.0 for Mac OS X 64-bit built Mar  4 2016
+Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    vetmac06.vet.cam.ac.uk (AVX, 64 GB RAM)
+Command: iqtree-omp -s SouthAmerica.fas -pre SouthAmerica -spp srd06.nex -nt 2
+Seed:    632429 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar 30 22:00:23 2016
+Kernel:  AVX - 2 threads (16 CPU cores detected)
+
+Reading partition model file srd06.nex ...
+Reading alignment file SouthAmerica.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 191 sequences with 1698 columns and 540 patterns (241 informative sites)
+WARNING: Some sequence names are changed as follows:
+A/ARGENTINA/10/2001_2001-06-25 -> A_ARGENTINA_10_2001_2001-06-25
+A/ARGENTINA/13/2001_2001-06-22 -> A_ARGENTINA_13_2001_2001-06-22
+A/ARGENTINA/25/2001_2001-06-29 -> A_ARGENTINA_25_2001_2001-06-29
+A/ARGENTINA/302/2001_2001-08-09 -> A_ARGENTINA_302_2001_2001-08-09
+A/ARGENTINA/311/2001_2001-08-10 -> A_ARGENTINA_311_2001_2001-08-10
+A/ARGENTINA/3758/2001_2001-08-30 -> A_ARGENTINA_3758_2001_2001-08-30
+A/ARGENTINA/3759/2001_2001-08-29 -> A_ARGENTINA_3759_2001_2001-08-29
+A/ARGENTINA/44/2001_2001-06-29 -> A_ARGENTINA_44_2001_2001-06-29
+A/ARGENTINA/5/2001_2001-06-06 -> A_ARGENTINA_5_2001_2001-06-06
+A/ARGENTINA/5995/2000_2000-10-03 -> A_ARGENTINA_5995_2000_2000-10-03
+A/ARGENTINA/mc5/2001_2001-06-14 -> A_ARGENTINA_mc5_2001_2001-06-14
+A/Acre/15093/2010_2010-03-03 -> A_Acre_15093_2010_2010-03-03
+A/Acre/26954/2010_2010-04-04 -> A_Acre_26954_2010_2010-04-04
+A/Argentina/01/2010_2010-12-27 -> A_Argentina_01_2010_2010-12-27
+A/Argentina/02/2010_2010-12-27 -> A_Argentina_02_2010_2010-12-27
+A/Argentina/117/2007_2007-06-04 -> A_Argentina_117_2007_2007-06-04
+A/Argentina/146/2007_2007-06-06 -> A_Argentina_146_2007_2007-06-06
+A/Argentina/27724/2010_2010-08-23 -> A_Argentina_27724_2010_2010-08-23
+A/Argentina/27826/2010_2010-09-06 -> A_Argentina_27826_2010_2010-09-06
+A/Argentina/27891/2010_2010-09-15 -> A_Argentina_27891_2010_2010-09-15
+A/Argentina/27893/2010_2010-09-08 -> A_Argentina_27893_2010_2010-09-08
+A/Argentina/27894/2010_2010-09-17 -> A_Argentina_27894_2010_2010-09-17
+A/Argentina/27895/2010_2010-09-17 -> A_Argentina_27895_2010_2010-09-17
+A/Argentina/28302/2010_2010-11-02 -> A_Argentina_28302_2010_2010-11-02
+A/Argentina/28306/2010_2010-10-30 -> A_Argentina_28306_2010_2010-10-30
+A/Argentina/28342/2010_2010-11-23 -> A_Argentina_28342_2010_2010-11-23
+A/Argentina/28367/2010_2010-11-23 -> A_Argentina_28367_2010_2010-11-23
+A/Argentina/28370/2010_2010-11-23 -> A_Argentina_28370_2010_2010-11-23
+A/Argentina/28372/2010_2010-11-24 -> A_Argentina_28372_2010_2010-11-24
+A/Argentina/28378/2010_2010-11-30 -> A_Argentina_28378_2010_2010-11-30
+A/Argentina/28379/2010_2010-11-30 -> A_Argentina_28379_2010_2010-11-30
+A/Argentina/305/2007_2007-06-19 -> A_Argentina_305_2007_2007-06-19
+A/Argentina/334/2007_2007-06-14 -> A_Argentina_334_2007_2007-06-14
+A/Argentina/335/2007_2007-06-15 -> A_Argentina_335_2007_2007-06-15
+A/Argentina/3689/2007_2007-03-21 -> A_Argentina_3689_2007_2007-03-21
+A/Argentina/3726/2007_2007-05-01 -> A_Argentina_3726_2007_2007-05-01
+A/Argentina/3743/2007_2007-06-12 -> A_Argentina_3743_2007_2007-06-12
+A/Argentina/3797/2007_2007-05-28 -> A_Argentina_3797_2007_2007-05-28
+A/Argentina/3888/2007_2007-07-10 -> A_Argentina_3888_2007_2007-07-10
+A/Argentina/389/2007_2007-06-13 -> A_Argentina_389_2007_2007-06-13
+A/Argentina/402/2007_2007-06-25 -> A_Argentina_402_2007_2007-06-25
+A/Argentina/405/2007_2007-06-26 -> A_Argentina_405_2007_2007-06-26
+A/Argentina/426/2007_2007-06-21 -> A_Argentina_426_2007_2007-06-21
+A/Argentina/445/2007_2007-06-12 -> A_Argentina_445_2007_2007-06-12
+A/Argentina/449/2007_2007-06-12 -> A_Argentina_449_2007_2007-06-12
+A/Argentina/501/2007_2007-06-27 -> A_Argentina_501_2007_2007-06-27
+A/Argentina/503/2007_2007-06-27 -> A_Argentina_503_2007_2007-06-27
+A/Argentina/7646/2009_2009-06-26 -> A_Argentina_7646_2009_2009-06-26
+A/Argentina/8409/2010_2010-11-30 -> A_Argentina_8409_2010_2010-11-30
+A/BRAZIL/10/2000_2000-07-24 -> A_BRAZIL_10_2000_2000-07-24
+A/BRAZIL/18a/2000_2000-07-14 -> A_BRAZIL_18a_2000_2000-07-14
+A/BRAZIL/2030/2002_2002-07-16 -> A_BRAZIL_2030_2002_2002-07-16
+A/BRAZIL/2c/2000_2000-07-05 -> A_BRAZIL_2c_2000_2000-07-05
+A/BRAZIL/4b/2000_2000-07-06 -> A_BRAZIL_4b_2000_2000-07-06
+A/BRAZIL/5/2002_2002-11-13 -> A_BRAZIL_5_2002_2002-11-13
+A/BRAZIL/694/2000_2000-04-12 -> A_BRAZIL_694_2000_2000-04-12
+A/BRAZIL/695/2001_2001-06-06 -> A_BRAZIL_695_2001_2001-06-06
+A/BRAZIL/718/2000_2000-04-18 -> A_BRAZIL_718_2000_2000-04-18
+A/BRAZIL/79214/2001_2001-10-11 -> A_BRAZIL_79214_2001_2001-10-11
+A/BRAZIL/79285/2001_2001-10-22 -> A_BRAZIL_79285_2001_2001-10-22
+A/BRAZIL/822/2001_2001-06-26 -> A_BRAZIL_822_2001_2001-06-26
+A/BRAZIL/991/2000_2000-06-12 -> A_BRAZIL_991_2000_2000-06-12
+A/Bahia/100/2011_2011-03-24 -> A_Bahia_100_2011_2011-03-24
+A/Bahia/44/2011_2011-01-18 -> A_Bahia_44_2011_2011-01-18
+A/Bahia/45/2011_2011-01-20 -> A_Bahia_45_2011_2011-01-20
+A/Bahia/65/2011_2011-02-10 -> A_Bahia_65_2011_2011-02-10
+A/Bahia/97/2011_2011-07-09 -> A_Bahia_97_2011_2011-07-09
+A/Bahia/98/2011_2011-04-14 -> A_Bahia_98_2011_2011-04-14
+A/Bogota/WRAIR3457N/2010_2010-12-01 -> A_Bogota_WRAIR3457N_2010_2010-12-01
+A/Bolivia/1053/2010_2010-08-11 -> A_Bolivia_1053_2010_2010-08-11
+A/Bolivia/317/2010_2010-05-10 -> A_Bolivia_317_2010_2010-05-10
+A/Brazil/0610/2010_2010-05-24 -> A_Brazil_0610_2010_2010-05-24
+A/Brazil/0791/2010_2010-06-23 -> A_Brazil_0791_2010_2010-06-23
+A/Brazil/1619/2008_2008-03-28 -> A_Brazil_1619_2008_2008-03-28
+A/Brazil/1623/2008_2008-03-31 -> A_Brazil_1623_2008_2008-03-31
+A/Brazil/1727/2002_2002-05-23 -> A_Brazil_1727_2002_2002-05-23
+A/Brazil/1732/2002_2002-06-27 -> A_Brazil_1732_2002_2002-06-27
+A/Brazil/1814/2009_2009-05-11 -> A_Brazil_1814_2009_2009-05-11
+A/Brazil/2458/2002_2002-08-09 -> A_Brazil_2458_2002_2002-08-09
+A/Brazil/884/2009_2009-07-07 -> A_Brazil_884_2009_2009-07-07
+A/Brazil/933/2009_2009-05-05 -> A_Brazil_933_2009_2009-05-05
+A/CHILE/5109/2001_2001-05-17 -> A_CHILE_5109_2001_2001-05-17
+A/CHILE/5299/2000_2000-06-11 -> A_CHILE_5299_2000_2000-06-11
+A/CHILE/5823/2001_2001-06-04 -> A_CHILE_5823_2001_2001-06-04
+A/COLOMBIA/3026/2001_2001-08-27 -> A_COLOMBIA_3026_2001_2001-08-27
+A/Ceara/177/2002_2002-04-04 -> A_Ceara_177_2002_2002-04-04
+A/Chile/5845/2010_2010-07-10 -> A_Chile_5845_2010_2010-07-10
+A/Chile/6096/2010_2010-07-10 -> A_Chile_6096_2010_2010-07-10
+A/Chile/6278/2010_2010-07-10 -> A_Chile_6278_2010_2010-07-10
+A/Chile/6380/2010_2010-07-14 -> A_Chile_6380_2010_2010-07-14
+A/Chile/6416/2001_2001-08-03 -> A_Chile_6416_2001_2001-08-03
+A/Chile/6927/2010_2010-07-22 -> A_Chile_6927_2010_2010-07-22
+A/Chile/8196/2010_2010-08-04 -> A_Chile_8196_2010_2010-08-04
+A/Colombia/227/2009_2009-05-01 -> A_Colombia_227_2009_2009-05-01
+A/Colombia/6123/2009_2009-07-22 -> A_Colombia_6123_2009_2009-07-22
+A/Colombia/6722/2010_2010-06-22 -> A_Colombia_6722_2010_2010-06-22
+A/Colombia/7158/2009_2009-07-26 -> A_Colombia_7158_2009_2009-07-26
+A/ECUADOR/2635/2001_2001-05-14 -> A_ECUADOR_2635_2001_2001-05-14
+A/Guyane/13/2007_2007-03-09 -> A_Guyane_13_2007_2007-03-09
+A/Guyane/25/2007_2007-05-11 -> A_Guyane_25_2007_2007-05-11
+A/Guyane/32/2007_2007-07-02 -> A_Guyane_32_2007_2007-07-02
+A/Minas_Gerais/10995/2009_2009-08-12 -> A_Minas_Gerais_10995_2009_2009-08-12
+A/Minas_Gerais/10998/2009_2009-08-12 -> A_Minas_Gerais_10998_2009_2009-08-12
+A/Minas_Gerais/11401/2009_2009-08-12 -> A_Minas_Gerais_11401_2009_2009-08-12
+A/Minas_Gerais/11404/2009_2009-08-12 -> A_Minas_Gerais_11404_2009_2009-08-12
+A/Minas_Gerais/11405/2009_2009-08-12 -> A_Minas_Gerais_11405_2009_2009-08-12
+A/Minas_Gerais/239/2011_2011-04-05 -> A_Minas_Gerais_239_2011_2011-04-05
+A/PERU/5937/2000_2000-09-22 -> A_PERU_5937_2000_2000-09-22
+A/PERU/G194/2001_2001-12-05 -> A_PERU_G194_2001_2001-12-05
+A/Paraguay/2394/2010_2010-10-04 -> A_Paraguay_2394_2010_2010-10-04
+A/Paraguay/2395/2010_2010-10-04 -> A_Paraguay_2395_2010_2010-10-04
+A/Paraguay/52/2009_2009-06-06 -> A_Paraguay_52_2009_2009-06-06
+A/Parana/192/2011_2011-03-23 -> A_Parana_192_2011_2011-03-23
+A/Parana/199/2011_2011-05-02 -> A_Parana_199_2011_2011-05-02
+A/Peru/3029/2002_2002-05-14 -> A_Peru_3029_2002_2002-05-14
+A/Peru/4010/2010_2010-10-20 -> A_Peru_4010_2010_2010-10-20
+A/Peru/7710/2010_2010-10-13 -> A_Peru_7710_2010_2010-10-13
+A/Peru/8307/2007_2007-05-09 -> A_Peru_8307_2007_2007-05-09
+A/Peru/8410/2010_2010-09-28 -> A_Peru_8410_2010_2010-09-28
+A/Peru/9310/2010_2010-11-21 -> A_Peru_9310_2010_2010-11-21
+A/Peru/CIS1578/2010_2010-10-19 -> A_Peru_CIS1578_2010_2010-10-19
+A/Rio_de_Janeiro/1621/2009_2009-08-14 -> A_Rio_de_Janeiro_1621_2009_2009-08-14
+A/Rio_de_Janeiro/27/2011_2011-01-13 -> A_Rio_de_Janeiro_27_2011_2011-01-13
+A/SANTIAGO/5628/2000_2000-06-15 -> A_SANTIAGO_5628_2000_2000-06-15
+A/SANTIAGO/6774/2000_2000-07-11 -> A_SANTIAGO_6774_2000_2000-07-11
+A/Santiago/10086/2007_2007-07-09 -> A_Santiago_10086_2007_2007-07-09
+A/Santiago/6421/2007_2007-05-09 -> A_Santiago_6421_2007_2007-05-09
+A/Santiago/6881/2007_2007-05-18 -> A_Santiago_6881_2007_2007-05-18
+A/Sergipe/146/2011_2011-02-27 -> A_Sergipe_146_2011_2011-02-27
+A/Sergipe/152/2011_2011-02-15 -> A_Sergipe_152_2011_2011-02-15
+A/Sergipe/155/2011_2011-02-24 -> A_Sergipe_155_2011_2011-02-24
+A/Sergipe/176/2011_2011-03-15 -> A_Sergipe_176_2011_2011-03-15
+A/Suriname/5163/2009_2009-06-15 -> A_Suriname_5163_2009_2009-06-15
+A/Uruguay/0707/2007_2007-05-29 -> A_Uruguay_0707_2007_2007-05-29
+A/Uruguay/0710/2007_2007-06-08 -> A_Uruguay_0710_2007_2007-06-08
+A/Uruguay/0723/2007_2007-06-15 -> A_Uruguay_0723_2007_2007-06-15
+A/Uruguay/2214/2010_2010-11-10 -> A_Uruguay_2214_2010_2010-11-10
+A/Uruguay/716/2007_2007-06-21 -> A_Uruguay_716_2007_2007-06-21
+A/Venezuela/07/2010_2010-06-16 -> A_Venezuela_07_2010_2010-06-16
+A/Venezuela/8241/2007_2007-08-13 -> A_Venezuela_8241_2007_2007-08-13
+A/Venezuela/9602/2007_2007-09-04 -> A_Venezuela_9602_2007_2007-09-04
+ARGENTINA/126/2004_2004-05-20 -> ARGENTINA_126_2004_2004-05-20
+BRAZIL/1742/2005_2005-07-07 -> BRAZIL_1742_2005_2005-07-07
+BRAZIL/1759/2004_2004-05-28 -> BRAZIL_1759_2004_2004-05-28
+ECUADOR/1968/2004_2004-02-23 -> ECUADOR_1968_2004_2004-02-23
+GUYANE/28/2006_2006-06-20 -> GUYANE_28_2006_2006-06-20
+PERU/1296/2004_2004-01-22 -> PERU_1296_2004_2004-01-22
+SANTIAGO/8248/2006_2006-07-03 -> SANTIAGO_8248_2006_2006-07-03
+SANTIAGO/9491/2006_2006-07-27 -> SANTIAGO_9491_2006_2006-07-27
+
+                                       Gap/Ambiguity  Composition  p-value
+   1  A_ARGENTINA_10_2001_2001-06-25          38.16%    passed     76.01%
+   2  A_ARGENTINA_13_2001_2001-06-22          37.99%    passed     85.44%
+   3  A_ARGENTINA_25_2001_2001-06-29          38.16%    passed     75.85%
+   4  A_ARGENTINA_302_2001_2001-08-09         38.34%    passed     78.64%
+   5  A_ARGENTINA_311_2001_2001-08-10         39.34%    passed     83.60%
+   6  A_ARGENTINA_3758_2001_2001-08-30        34.45%    passed     70.90%
+   7  A_ARGENTINA_3759_2001_2001-08-29        34.22%    passed     66.62%
+   8  A_ARGENTINA_44_2001_2001-06-29          38.16%    passed     79.56%
+   9  A_ARGENTINA_5_2001_2001-06-06           33.98%    passed     64.58%
+  10  A_ARGENTINA_5995_2000_2000-10-03        34.10%    passed     72.22%
+  11  A_ARGENTINA_mc5_2001_2001-06-14         38.16%    passed     79.56%
+  12  A_Acre_15093_2010_2010-03-03             0.00%    passed     91.80%
+  13  A_Acre_26954_2010_2010-04-04             0.00%    passed     92.38%
+  14  A_Argentina_01_2010_2010-12-27           0.00%    passed     79.89%
+  15  A_Argentina_02_2010_2010-12-27           0.00%    passed     75.74%
+  16  A_Argentina_117_2007_2007-06-04          0.00%    passed     92.58%
+  17  A_Argentina_146_2007_2007-06-06          0.00%    passed     89.59%
+  18  A_Argentina_27724_2010_2010-08-23        0.00%    passed     87.29%
+  19  A_Argentina_27826_2010_2010-09-06       38.10%    passed     76.64%
+  20  A_Argentina_27891_2010_2010-09-15        0.00%    passed     78.99%
+  21  A_Argentina_27893_2010_2010-09-08        0.00%    passed     76.66%
+  22  A_Argentina_27894_2010_2010-09-17        0.00%    passed     76.66%
+  23  A_Argentina_27895_2010_2010-09-17        0.00%    passed     76.66%
+  24  A_Argentina_28302_2010_2010-11-02        0.00%    passed     83.77%
+  25  A_Argentina_28306_2010_2010-10-30        0.00%    passed     77.48%
+  26  A_Argentina_28342_2010_2010-11-23        0.00%    passed     85.55%
+  27  A_Argentina_28367_2010_2010-11-23        0.00%    passed     85.55%
+  28  A_Argentina_28370_2010_2010-11-23        0.00%    passed     74.62%
+  29  A_Argentina_28372_2010_2010-11-24        0.00%    passed     85.55%
+  30  A_Argentina_28378_2010_2010-11-30        0.00%    passed     78.99%
+  31  A_Argentina_28379_2010_2010-11-30        0.00%    passed     75.74%
+  32  A_Argentina_305_2007_2007-06-19          0.06%    passed     89.63%
+  33  A_Argentina_334_2007_2007-06-14          6.12%    passed     73.07%
+  34  A_Argentina_335_2007_2007-06-15          0.00%    passed     87.93%
+  35  A_Argentina_3689_2007_2007-03-21         0.00%    passed     91.10%
+  36  A_Argentina_3726_2007_2007-05-01         0.00%    passed     92.58%
+  37  A_Argentina_3743_2007_2007-06-12         0.00%    passed     91.10%
+  38  A_Argentina_3797_2007_2007-05-28         0.00%    passed     89.91%
+  39  A_Argentina_3888_2007_2007-07-10         0.00%    passed     89.61%
+  40  A_Argentina_389_2007_2007-06-13          0.00%    passed     93.59%
+  41  A_Argentina_402_2007_2007-06-25          0.00%    passed     87.43%
+  42  A_Argentina_405_2007_2007-06-26          0.06%    passed     88.11%
+  43  A_Argentina_426_2007_2007-06-21          0.00%    passed     83.33%
+  44  A_Argentina_445_2007_2007-06-12          0.00%    passed     86.05%
+  45  A_Argentina_449_2007_2007-06-12          0.00%    passed     89.61%
+  46  A_Argentina_501_2007_2007-06-27          0.00%    passed     93.18%
+  47  A_Argentina_503_2007_2007-06-27          0.00%    passed     91.77%
+  48  A_Argentina_7646_2009_2009-06-26         0.00%    passed     84.62%
+  49  A_Argentina_8409_2010_2010-11-30         0.00%    passed     78.99%
+  50  A_BRAZIL_10_2000_2000-07-24             41.87%    passed     77.92%
+  51  A_BRAZIL_18a_2000_2000-07-14            39.52%    passed     72.36%
+  52  A_BRAZIL_2030_2002_2002-07-16           39.46%    passed     78.92%
+  53  A_BRAZIL_2c_2000_2000-07-05             41.93%    passed     77.70%
+  54  A_BRAZIL_4b_2000_2000-07-06             41.87%    passed     71.03%
+  55  A_BRAZIL_5_2002_2002-11-13              40.64%    passed     87.45%
+  56  A_BRAZIL_694_2000_2000-04-12            41.87%    passed     69.41%
+  57  A_BRAZIL_695_2001_2001-06-06            40.22%    passed     82.41%
+  58  A_BRAZIL_718_2000_2000-04-18            41.87%    passed     71.72%
+  59  A_BRAZIL_79214_2001_2001-10-11          38.22%    passed     70.67%
+  60  A_BRAZIL_79285_2001_2001-10-22          39.40%    passed     82.26%
+  61  A_BRAZIL_822_2001_2001-06-26            34.63%    passed     68.33%
+  62  A_BRAZIL_991_2000_2000-06-12            41.81%    passed     78.23%
+  63  A_Bahia_100_2011_2011-03-24             41.28%    passed     85.06%
+  64  A_Bahia_44_2011_2011-01-18              40.81%    passed     66.95%
+  65  A_Bahia_45_2011_2011-01-20              39.16%    passed     71.21%
+  66  A_Bahia_65_2011_2011-02-10              38.69%    passed     71.67%
+  67  A_Bahia_97_2011_2011-07-09              37.93%    passed     81.26%
+  68  A_Bahia_98_2011_2011-04-14              44.64%    passed     84.15%
+  69  A_Bogota_WRAIR3457N_2010_2010-12-01      0.00%    passed     75.49%
+  70  A_Bolivia_1053_2010_2010-08-11           0.00%    passed     73.85%
+  71  A_Bolivia_317_2010_2010-05-10            0.06%    passed     74.00%
+  72  A_Brazil_0610_2010_2010-05-24            0.00%    passed     87.14%
+  73  A_Brazil_0791_2010_2010-06-23            0.00%    passed     84.62%
+  74  A_Brazil_1619_2008_2008-03-28            0.00%    passed     83.25%
+  75  A_Brazil_1623_2008_2008-03-31            0.00%    passed     85.25%
+  76  A_Brazil_1727_2002_2002-05-23           34.10%    passed     69.77%
+  77  A_Brazil_1732_2002_2002-06-27           41.22%    passed     92.88%
+  78  A_Brazil_1814_2009_2009-05-11            0.06%    passed     83.48%
+  79  A_Brazil_2458_2002_2002-08-09           33.92%    passed     69.29%
+  80  A_Brazil_884_2009_2009-07-07             0.06%    passed     78.53%
+  81  A_Brazil_933_2009_2009-05-05             0.00%    passed     76.38%
+  82  A_CHILE_5109_2001_2001-05-17            36.28%    passed     74.59%
+  83  A_CHILE_5299_2000_2000-06-11            41.87%    passed     72.36%
+  84  A_CHILE_5823_2001_2001-06-04            35.22%    passed     52.83%
+  85  A_COLOMBIA_3026_2001_2001-08-27         33.92%    passed     72.39%
+  86  A_Ceara_177_2002_2002-04-04             38.16%    passed     74.05%
+  87  A_Chile_5845_2010_2010-07-10             0.00%    passed     77.98%
+  88  A_Chile_6096_2010_2010-07-10             0.00%    passed     81.10%
+  89  A_Chile_6278_2010_2010-07-10             0.00%    passed     79.89%
+  90  A_Chile_6380_2010_2010-07-14             0.00%    passed     77.98%
+  91  A_Chile_6416_2001_2001-08-03            41.93%    passed     89.99%
+  92  A_Chile_6927_2010_2010-07-22             0.00%    passed     81.10%
+  93  A_Chile_8196_2010_2010-08-04             0.00%    passed     83.95%
+  94  A_Colombia_227_2009_2009-05-01           0.00%    passed     92.80%
+  95  A_Colombia_6123_2009_2009-07-22          0.12%    passed     75.13%
+  96  A_Colombia_6722_2010_2010-06-22          0.00%    passed     82.75%
+  97  A_Colombia_7158_2009_2009-07-26          0.00%    passed     89.21%
+  98  A_ECUADOR_2635_2001_2001-05-14          33.92%    passed     67.52%
+  99  A_Guyane_13_2007_2007-03-09              0.00%    passed     92.32%
+ 100  A_Guyane_25_2007_2007-05-11              0.00%    passed     89.13%
+ 101  A_Guyane_32_2007_2007-07-02              0.06%    passed     81.02%
+ 102  A_Minas_Gerais_10995_2009_2009-08-12    38.75%    passed     76.05%
+ 103  A_Minas_Gerais_10998_2009_2009-08-12    37.16%    passed     92.73%
+ 104  A_Minas_Gerais_11401_2009_2009-08-12    36.16%    passed     89.79%
+ 105  A_Minas_Gerais_11404_2009_2009-08-12    37.81%    passed     68.39%
+ 106  A_Minas_Gerais_11405_2009_2009-08-12    36.04%    passed     86.39%
+ 107  A_Minas_Gerais_239_2011_2011-04-05      37.16%    passed     78.85%
+ 108  A_PERU_5937_2000_2000-09-22             41.11%    passed     79.70%
+ 109  A_PERU_G194_2001_2001-12-05             34.04%    passed     77.77%
+ 110  A_Paraguay_2394_2010_2010-10-04          0.00%    passed     71.52%
+ 111  A_Paraguay_2395_2010_2010-10-04          0.00%    passed     74.32%
+ 112  A_Paraguay_52_2009_2009-06-06            0.00%    passed     80.43%
+ 113  A_Parana_192_2011_2011-03-23            36.98%    passed     80.59%
+ 114  A_Parana_199_2011_2011-05-02            39.05%    passed     83.19%
+ 115  A_Peru_3029_2002_2002-05-14             34.57%    passed     79.61%
+ 116  A_Peru_4010_2010_2010-10-20              0.00%    passed     77.98%
+ 117  A_Peru_7710_2010_2010-10-13              0.00%    passed     80.31%
+ 118  A_Peru_8307_2007_2007-05-09              0.00%    passed     88.68%
+ 119  A_Peru_8410_2010_2010-09-28              0.00%    passed     82.09%
+ 120  A_Peru_9310_2010_2010-11-21              0.00%    passed     83.95%
+ 121  A_Peru_CIS1578_2010_2010-10-19           3.83%    passed     74.82%
+ 122  A_Rio_de_Janeiro_1621_2009_2009-08-14   36.57%    passed     86.16%
+ 123  A_Rio_de_Janeiro_27_2011_2011-01-13     44.35%    passed     72.52%
+ 124  A_SANTIAGO_5628_2000_2000-06-15         41.87%    passed     72.36%
+ 125  A_SANTIAGO_6774_2000_2000-07-11         41.87%    passed     83.21%
+ 126  A_Santiago_10086_2007_2007-07-09         0.00%    passed     86.75%
+ 127  A_Santiago_6421_2007_2007-05-09          0.00%    passed     87.14%
+ 128  A_Santiago_6881_2007_2007-05-18          0.00%    passed     85.93%
+ 129  A_Sergipe_146_2011_2011-02-27           40.05%    passed     71.12%
+ 130  A_Sergipe_152_2011_2011-02-15           38.87%    passed     78.21%
+ 131  A_Sergipe_155_2011_2011-02-24           36.22%    passed     93.87%
+ 132  A_Sergipe_176_2011_2011-03-15           37.40%    passed     69.60%
+ 133  A_Suriname_5163_2009_2009-06-15          0.00%    passed     89.91%
+ 134  A_Uruguay_0707_2007_2007-05-29           0.00%    passed     88.28%
+ 135  A_Uruguay_0710_2007_2007-06-08           0.00%    passed     88.02%
+ 136  A_Uruguay_0723_2007_2007-06-15           0.06%    passed     85.61%
+ 137  A_Uruguay_2214_2010_2010-11-10           0.06%    passed     88.54%
+ 138  A_Uruguay_716_2007_2007-06-21            0.00%    passed     88.41%
+ 139  A_Venezuela_07_2010_2010-06-16           0.00%    passed     75.86%
+ 140  A_Venezuela_8241_2007_2007-08-13         0.00%    passed     88.02%
+ 141  A_Venezuela_9602_2007_2007-09-04         0.00%    passed     85.25%
+ 142  AG-2289_2003-07-03                      41.87%    passed     84.20%
+ 143  AG-3065_2005-06-09                      41.87%    passed     55.55%
+ 144  AG-3509_2006-06-28                      41.87%    passed     56.34%
+ 145  AG-R1-06_2006-01-31                     41.87%    passed     63.51%
+ 146  AG-R113-05_2005-06-10                   41.87%    passed     55.95%
+ 147  AG-R26-04_2004-04-03                    41.87%    passed     65.36%
+ 148  AG-R517-03_2003-06-12                   41.87%    passed     90.10%
+ 149  AG-R55-05_2005-05-26                    41.87%    passed     65.05%
+ 150  AG-R56-05_2005-05-26                    41.87%    passed     62.78%
+ 151  AG-R570-05_2005-07-25                   41.87%    passed     55.95%
+ 152  AG-R624-06_2006-10-17                   41.87%    passed     61.61%
+ 153  AG-R631-06_2006-10-20                   41.87%    passed     61.55%
+ 154  AG-R809-03_2003-07-01                   41.87%    passed     78.73%
+ 155  ARGENTINA_126_2004_2004-05-20           41.87%    passed     58.86%
+ 156  BL-324-02_2003-09-05                    41.87%    passed     95.79%
+ 157  BR-1609_2003-06-17                      41.87%    passed     83.23%
+ 158  BR-1945_2006-07-03                      41.87%    passed     54.00%
+ 159  BR-IAL-1499_2005-06-16                  41.87%    passed     58.32%
+ 160  BR-IAL-266_2005-02-17                   41.87%    passed     55.87%
+ 161  BR-IAL-445_2004-04-03                   41.87%    passed     67.49%
+ 162  BR-IAL-615_2004-03-21                   41.87%    passed     71.58%
+ 163  BR-IAL1544_2003-06-20                   41.87%    passed     81.76%
+ 164  BRAZIL_1742_2005_2005-07-07             41.87%    passed     58.32%
+ 165  BRAZIL_1759_2004_2004-05-28             41.87%    passed     77.74%
+ 166  CI-03-6267_2003-05-12                   41.87%    passed     60.42%
+ 167  CI-03-6421_2003-05-13                   41.87%    passed     78.51%
+ 168  CI-03-7379_2003-06-03                   41.87%    passed     66.95%
+ 169  CI-03-7985_2003-06-12                   41.87%    passed     61.14%
+ 170  CI-03-8266-ORIGINAL_2003-06-19          41.87%    passed     90.89%
+ 171  CI-03-8299_2003-06-19                   41.87%    passed     71.58%
+ 172  CI-03-8806_2003-06-30                   41.87%    passed     69.27%
+ 173  CI-05-6898_2005-05-24                   41.87%    passed     70.05%
+ 174  CI-05-7099_2005-05-20                   41.87%    passed     66.20%
+ 175  CL-4145_2003-11-20                      41.87%    passed     76.49%
+ 176  CL-6928_2006-01-18                      41.87%    passed     67.12%
+ 177  ECUADOR_1968_2004_2004-02-23            41.87%    passed     76.70%
+ 178  FG-00220012_2004-02-18                  41.87%    passed     59.91%
+ 179  GUYANE_28_2006_2006-06-20               41.87%    passed     57.83%
+ 180  PE-5102-ORIGINAL_2006-07-02             41.87%    passed     57.83%
+ 181  PE-5107-ORIGINAL_2006-07-03             41.87%    passed     59.85%
+ 182  PE-FLU-3355_2006-03-07                  41.87%    passed     59.93%
+ 183  PERU_1296_2004_2004-01-22               41.87%    passed     76.49%
+ 184  PY-697_2004-07-01                       41.87%    passed     60.58%
+ 185  SANTIAGO_8248_2006_2006-07-03           41.87%    passed     69.78%
+ 186  SANTIAGO_9491_2006_2006-07-27           41.87%    passed     54.00%
+ 187  UY-05-39082_2005-08-01                  41.87%    passed     61.14%
+ 188  UY-CA04-3173_2004-06-24                 41.87%    passed     72.29%
+ 189  UY-PA03-4_2003-06-14                    41.87%    passed     69.66%
+ 190  VE-246971-ORIGINAL_2005-05-25           41.87%    passed     49.12%
+ 191  VE-254155_2005-08-19                    41.87%    passed     63.80%
+****  TOTAL                                   23.09%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Reading partition pos12 (model=HKY+G+F, aln=, seq=DNA, pos=1-1698\1,1-1698\2) ...
+191 sequences and 2547 sites extracted
+
+Reading partition pos3 (model=HKY+G+F, aln=, seq=DNA, pos=1-1698\3) ...
+191 sequences and 566 sites extracted
+Degree of missing data: 0.000
+
+NOTE: 11 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: A_Argentina_28378_2010_2010-11-30 (identical to A_Argentina_27891_2010_2010-09-15) is ignored but added at the end
+NOTE: A_Argentina_8409_2010_2010-11-30 (identical to A_Argentina_27891_2010_2010-09-15) is ignored but added at the end
+NOTE: A_Argentina_27894_2010_2010-09-17 (identical to A_Argentina_27893_2010_2010-09-08) is ignored but added at the end
+NOTE: A_Argentina_27895_2010_2010-09-17 (identical to A_Argentina_27893_2010_2010-09-08) is ignored but added at the end
+NOTE: A_Argentina_28367_2010_2010-11-23 (identical to A_Argentina_28342_2010_2010-11-23) is ignored but added at the end
+NOTE: A_Argentina_28372_2010_2010-11-24 (identical to A_Argentina_28342_2010_2010-11-23) is ignored but added at the end
+NOTE: A_Argentina_3743_2007_2007-06-12 (identical to A_Argentina_3689_2007_2007-03-21) is ignored but added at the end
+NOTE: A_SANTIAGO_5628_2000_2000-06-15 (identical to A_CHILE_5299_2000_2000-06-11) is ignored but added at the end
+NOTE: A_Chile_6380_2010_2010-07-14 (identical to A_Chile_5845_2010_2010-07-10) is ignored but added at the end
+NOTE: A_Chile_6927_2010_2010-07-22 (identical to A_Chile_6096_2010_2010-07-10) is ignored but added at the end
+NOTE: BRAZIL_1742_2005_2005-07-07 (identical to BR-IAL-1499_2005-06-16) is ignored but added at the end
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.021 seconds
+
+NOTE: 16 MB RAM is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -13060.262
+Current log-likelihood at step 1: -12993.543
+Current log-likelihood at step 2: -12993.383
+Current log-likelihood at step 3: -12993.377
+Partition-specific rates:  1.049 0.778
+Parameters optimization took 2 rounds (0.451 sec)
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Computing ML distances based on estimated model parameters... 0.366 sec
+Computing BIONJ tree...
+0.022 seconds
+Log-likelihood of BIONJ tree: -13113.007
+Generating 98 parsimony trees... 2.878 seconds 100 distinct starting trees
+Computing log-likelihood of 100 initial trees ... 7.644 seconds
+Optimizing top 20 initial trees with NNI...
+Iteration 1 / LogL: -12955.417 / Time: 0h:0m:11s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -12955.413
+Current log-likelihood at step 1: -12955.310
+Current log-likelihood at step 2: -12955.308
+Parameters optimization took 1 rounds (0.210 sec)
+
+BETTER TREE FOUND at iteration 1: -12955.308
+Iteration 2 / LogL: -12956.210 / Time: 0h:0m:12s
+Iteration 3 / LogL: -12955.312 / Time: 0h:0m:12s
+Iteration 4 / LogL: -12957.286 / Time: 0h:0m:13s
+Iteration 5 / LogL: -12960.186 / Time: 0h:0m:13s
+Iteration 6 / LogL: -12955.658 / Time: 0h:0m:13s
+Iteration 7 / LogL: -12957.729 / Time: 0h:0m:13s
+Iteration 8 / LogL: -12956.666 / Time: 0h:0m:14s
+Iteration 9 / LogL: -12959.119 / Time: 0h:0m:14s
+Iteration 10 / LogL: -12955.979 / Time: 0h:0m:14s
+Iteration 11 / LogL: -12955.515 / Time: 0h:0m:15s
+Iteration 12 / LogL: -12957.052 / Time: 0h:0m:15s
+Iteration 13 / LogL: -12955.533 / Time: 0h:0m:15s
+Iteration 14 / LogL: -12956.587 / Time: 0h:0m:16s
+Iteration 15 / LogL: -12964.980 / Time: 0h:0m:16s
+Iteration 16 / LogL: -12959.541 / Time: 0h:0m:16s
+Iteration 17 / LogL: -12959.990 / Time: 0h:0m:16s
+Iteration 18 / LogL: -12960.269 / Time: 0h:0m:17s
+Iteration 19 / LogL: -12959.528 / Time: 0h:0m:17s
+Iteration 20 / LogL: -12956.551 / Time: 0h:0m:17s
+Average CPU time for 1 NNI search: 0.607
+Finish initializing candidate tree set. Number of distinct locally optimal trees: 20
+Current best tree score: -12955.308 / CPU time: 30.375
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -12956.234 / Time: 0h:0m:24s (0h:0m:58s left)
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -12954.578
+Current log-likelihood at step 1: -12954.578
+Parameters optimization took 0 rounds (0.101 sec)
+
+BETTER TREE FOUND at iteration 36: -12954.578
+Iteration 40 / LogL: -13062.942 / Time: 0h:0m:30s (0h:1m:15s left)
+Iteration 50 / LogL: -13071.492 / Time: 0h:0m:37s (0h:1m:6s left)
+Iteration 60 / LogL: -12954.593 / Time: 0h:0m:44s (0h:0m:56s left)
+Iteration 70 / LogL: -12962.713 / Time: 0h:0m:50s (0h:0m:48s left)
+Iteration 80 / LogL: -13016.677 / Time: 0h:0m:56s (0h:0m:40s left)
+Iteration 90 / LogL: -13100.370 / Time: 0h:1m:3s (0h:0m:32s left)
+Iteration 100 / LogL: -12963.927 / Time: 0h:1m:9s (0h:0m:25s left)
+Iteration 110 / LogL: -13013.442 / Time: 0h:1m:16s (0h:0m:18s left)
+Iteration 120 / LogL: -12986.564 / Time: 0h:1m:23s (0h:0m:11s left)
+Iteration 130 / LogL: -13021.904 / Time: 0h:1m:29s (0h:0m:4s left)
+TREE SEARCH COMPLETED AFTER 136 ITERATIONS / Time: 0h:1m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -12954.578
+Current log-likelihood at step 1: -12954.577
+Partition-specific rates:  1.046 0.793
+Parameters optimization took 0 rounds (0.114 sec)
+
+BEST SCORE FOUND : -12954.577
+Total tree length: 0.557
+
+Total number of iterations: 136
+CPU time used for tree search: 179.791 sec (0h:2m:59s)
+Wall-clock time used for tree search: 92.259 sec (0h:1m:32s)
+Total CPU time used: 182.136 sec (0h:3m:2s)
+Total wall-clock time used: 93.545 sec (0h:1m:33s)
+
+Analysis results written to: 
+  IQ-TREE report:                SouthAmerica.iqtree
+  Maximum-likelihood tree:       SouthAmerica.treefile
+  Likelihood distances:          SouthAmerica.mldist
+  Screen log file:               SouthAmerica.log
+
+Date and Time: Wed Mar 30 22:01:57 2016

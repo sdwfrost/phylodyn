@@ -1,0 +1,7 @@
+#nexus
+begin sets;
+	charset pos12 = 1-1701\1,1-1701\2;
+	charset pos3 = 1-1701\3;
+	charpartition srd06 = HKY+G+F:pos12, HKY+G+F:pos3;
+end;
+

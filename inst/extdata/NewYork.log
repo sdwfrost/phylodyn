@@ -1,0 +1,1028 @@
+IQ-TREE multicore version 1.4.0 for Mac OS X 64-bit built Mar  4 2016
+Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    vetmac06.vet.cam.ac.uk (AVX, 64 GB RAM)
+Command: iqtree-omp -s NewYork.fas -pre NewYork -spp srd06_1701.nex -nt 2
+Seed:    896656 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar 30 16:27:58 2016
+Kernel:  AVX - 2 threads (16 CPU cores detected)
+
+Reading partition model file srd06_1701.nex ...
+Reading alignment file NewYork.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 709 sequences with 1701 columns and 663 patterns (438 informative sites)
+                   Gap/Ambiguity  Composition  p-value
+   1  CY002064date620.6    0.00%    passed     96.33%
+   2  CY002048date621.4    0.00%    passed     98.49%
+   3  CY002032date625.9    0.00%    passed     97.08%
+   4  CY006147date626.4    0.06%    passed     96.91%
+   5  CY002456date629.3    0.00%    passed     97.11%
+   6  CY006371date617.1    0.00%    passed     98.46%
+   7  CY002192date620.4    0.00%    passed     96.50%
+   8  CY002424date615.9    0.00%    passed     99.31%
+   9  CY007643date615.9    0.00%    passed     99.31%
+  10  CY002224date620.7    0.00%    passed     96.83%
+  11  CY019141date620.7    0.00%    passed     96.83%
+  12  CY019149date620.7    0.00%    passed     96.83%
+  13  CY019157date620.7    0.00%    passed     96.83%
+  14  CY019165date620.7    0.00%    passed     96.83%
+  15  CY019811date620.7    0.00%    passed     96.83%
+  16  CY002240date625.9    0.00%    passed     98.62%
+  17  CY006435date614.9    0.00%    passed     96.44%
+  18  CY006155date624.3    0.00%    passed     96.44%
+  19  CY002720date622.3    0.00%    passed     94.47%
+  20  CY006115date613.4    0.00%    passed     95.12%
+  21  CY002040date620.7    0.00%    passed     95.12%
+  22  CY002416date614.0    0.00%    passed     98.31%
+  23  CY003032date614.1    0.00%    passed     98.31%
+  24  CY003336date621.6    0.00%    passed     96.44%
+  25  CY002264date625.7    0.00%    passed     98.31%
+  26  CY002488date633.4    0.00%    passed     97.52%
+  27  CY002760date614.1    0.00%    passed     97.49%
+  28  CY002608date614.9    0.00%    passed     97.49%
+  29  CY002768date616.4    0.00%    passed     97.49%
+  30  CY002200date622.1    0.00%    passed     97.49%
+  31  CY006123date622.7    0.00%    passed     97.49%
+  32  CY003640date627.4    0.00%    passed     95.78%
+  33  CY003648date631.1    0.00%    passed     95.24%
+  34  CY002472date621.6    0.00%    passed     98.55%
+  35  CY002712date614.4    0.00%    passed     97.61%
+  36  CY002504date618.6    0.00%    passed     97.61%
+  37  CY009268date619.0    0.00%    passed     97.61%
+  38  CY006291date627.3    0.00%    passed     96.50%
+  39  CY003048date624.3    0.00%    passed     96.11%
+  40  CY003056date625.1    0.00%    passed     93.93%
+  41  CY002408date620.6    0.00%    passed     94.84%
+  42  CY006076date626.4    0.00%    passed     96.21%
+  43  CY002280date613.9    0.00%    passed     96.53%
+  44  CY003664date614.4    0.00%    passed     97.01%
+  45  CY002216date618.9    0.00%    passed     95.55%
+  46  CY002016date622.1    0.00%    passed     97.00%
+  47  CY006139date626.3    0.00%    passed     97.00%
+  48  CY006092date608.4    0.00%    passed     98.02%
+  49  CY002600date621.3    0.00%    passed     98.19%
+  50  CY003408date621.4    0.00%    passed     98.19%
+  51  CY002432date618.7    0.00%    passed     95.20%
+  52  CY002008date626.4    0.00%    passed     93.91%
+  53  CY002728date619.7    0.00%    passed     95.10%
+  54  CY003072date619.9    0.00%    passed     95.10%
+  55  CY002592date620.4    0.00%    passed     95.10%
+  56  CY006084date631.3    0.00%    passed     95.10%
+  57  CY002208date620.4    0.00%    passed     95.10%
+  58  CY002776date628.3    0.00%    passed     95.10%
+  59  CY002232date621.4    0.00%    passed     96.14%
+  60  CY019173date621.4    0.00%    passed     96.14%
+  61  CY019181date621.4    0.00%    passed     96.14%
+  62  CY019245date621.4    0.00%    passed     96.14%
+  63  CY019253date621.4    0.00%    passed     96.14%
+  64  CY019261date621.4    0.00%    passed     96.14%
+  65  CY019819date621.4    0.00%    passed     96.14%
+  66  CY021989date621.4    0.00%    passed     96.14%
+  67  CY002248date621.6    0.00%    passed     96.14%
+  68  CY019269date623.1    0.00%    passed     94.98%
+  69  CY019277date623.1    0.00%    passed     94.98%
+  70  CY019285date623.1    0.00%    passed     94.98%
+  71  CY019293date623.1    0.00%    passed     94.98%
+  72  CY020533date623.1    0.00%    passed     94.98%
+  73  CY003416date619.9    0.00%    passed     95.10%
+  74  CY002480date622.4    0.00%    passed     97.08%
+  75  CY002176date617.7    0.00%    passed     96.15%
+  76  CY002784date618.9    0.00%    passed     96.15%
+  77  CY003344date622.3    0.00%    passed     96.15%
+  78  CY019189date623.1    0.00%    passed     96.15%
+  79  CY019301date623.1    0.00%    passed     96.15%
+  80  CY019309date623.1    0.00%    passed     96.15%
+  81  CY019317date623.1    0.00%    passed     96.15%
+  82  CY020053date623.1    0.00%    passed     96.15%
+  83  CY002448date628.4    0.00%    passed     96.15%
+  84  CY003656date607.0    0.00%    passed     94.47%
+  85  CY006179date607.4    0.00%    passed     94.47%
+  86  CY008164date608.4    0.00%    passed     95.12%
+  87  CY002184date628.3    0.00%    passed     97.49%
+  88  CY002024date617.6    0.00%    passed     94.26%
+  89  CY002584date617.7    0.00%    passed     94.79%
+  90  CY002736date622.3    0.00%    passed     94.79%
+  91  CY002256date621.7    0.00%    passed     96.19%
+  92  CY002464date622.6    0.00%    passed     94.91%
+  93  CY006131date624.4    0.00%    passed     95.67%
+  94  CY006379date607.0    0.00%    passed     94.79%
+  95  CY003040date621.6    0.00%    passed     97.78%
+  96  CY002072date630.7    0.00%    passed     96.93%
+  97  CY002440date619.9    0.00%    passed     97.62%
+  98  CY002056date622.7    0.00%    passed     98.21%
+  99  CY002080date621.0    0.00%    passed     97.61%
+ 100  CY002000date624.1    0.00%    passed     96.19%
+ 101  CY008516date611.6    0.00%    passed     97.33%
+ 102  CY002288date618.9    0.00%    passed     97.33%
+ 103  CY002520date550.3    0.00%    passed     88.04%
+ 104  CY000957date567.7    0.00%    passed     97.92%
+ 105  CY000257date574.9    0.00%    passed     97.67%
+ 106  CY000081date566.7    0.00%    passed     98.46%
+ 107  CY008900date564.1    0.00%    passed     98.49%
+ 108  CY000881date566.9    0.00%    passed     98.49%
+ 109  CY008876date569.9    0.00%    passed     98.49%
+ 110  CY000949date566.9    0.00%    passed     98.55%
+ 111  CY000561date570.6    0.00%    passed     99.18%
+ 112  CY001037date561.1    0.00%    passed     99.16%
+ 113  CY000017date565.7    0.00%    passed     99.16%
+ 114  CY000505date566.6    0.00%    passed     99.16%
+ 115  CY000473date560.6    0.00%    passed     99.58%
+ 116  CY000785date566.7    0.00%    passed     99.92%
+ 117  CY000129date562.7    0.00%    passed     99.71%
+ 118  CY001512date567.7    0.00%    passed     99.47%
+ 119  CY000909date565.9    0.00%    passed     99.89%
+ 120  CY000073date567.1    0.00%    passed     99.71%
+ 121  CY000777date568.4    0.00%    passed     99.78%
+ 122  CY000345date562.9    0.00%    passed     99.71%
+ 123  CY000369date570.4    0.00%    passed     99.71%
+ 124  CY000769date567.7    0.18%    passed     99.25%
+ 125  CY000361date565.7    0.00%    passed     99.25%
+ 126  CY000177date566.6    0.00%    passed     99.25%
+ 127  CY000377date568.0    0.00%    passed     99.25%
+ 128  CY001221date569.6    0.00%    passed     99.78%
+ 129  CY001112date560.7    0.00%    passed     99.59%
+ 130  CY000353date564.9    0.00%    passed     99.59%
+ 131  CY001088date565.6    0.00%    passed     99.59%
+ 132  CY000041date565.9    0.00%    passed     99.59%
+ 133  CY001096date566.0    0.00%    passed     99.59%
+ 134  CY000265date567.0    0.00%    passed     99.59%
+ 135  CY000521date567.1    0.00%    passed     99.59%
+ 136  CY000105date567.6    0.00%    passed     99.72%
+ 137  CY000033date571.0    0.00%    passed     99.25%
+ 138  CY001712date565.1    0.00%    passed     99.57%
+ 139  CY002344date565.1    0.00%    passed     99.57%
+ 140  CY001293date566.0    0.00%    passed     98.73%
+ 141  CY001064date566.9    0.00%    passed     99.50%
+ 142  CY000161date566.6    0.00%    passed     98.76%
+ 143  CY000901date562.9    0.00%    passed     98.49%
+ 144  CY000169date566.9    0.00%    passed     99.14%
+ 145  CY000145date566.0    0.00%    passed     98.73%
+ 146  CY000089date566.6    0.00%    passed     98.54%
+ 147  CY000973date569.6    0.00%    passed     99.09%
+ 148  CY000153date566.6    0.00%    passed     99.14%
+ 149  CY000097date566.9    0.00%    passed     99.14%
+ 150  CY001205date567.7    0.00%    passed     99.14%
+ 151  CY001213date569.6    0.00%    passed     99.14%
+ 152  CY008908date571.6    0.00%    passed     99.14%
+ 153  CY000761date574.0    0.00%    passed     98.76%
+ 154  CY000513date561.1    0.00%    passed     99.72%
+ 155  CY001285date561.1    0.00%    passed     99.09%
+ 156  CY001341date568.7    0.00%    passed     97.67%
+ 157  CY000965date569.1    0.00%    passed     99.14%
+ 158  CY001061date565.6    0.00%    passed     96.66%
+ 159  CY000009date563.9    0.00%    passed     97.67%
+ 160  CY001648date563.7    0.00%    passed     95.19%
+ 161  CY000249date568.0    0.00%    passed     96.66%
+ 162  CY001632date565.0    0.00%    passed     99.52%
+ 163  CY000137date565.7    0.00%    passed     99.52%
+ 164  CY000049date566.0    0.00%    passed     97.11%
+ 165  CY000057date566.9    0.00%    passed     97.11%
+ 166  CY001021date560.7    0.00%    passed     98.54%
+ 167  CY008916date562.9    0.00%    passed     98.88%
+ 168  CY000121date567.3    0.00%    passed     99.59%
+ 169  CY000889date570.6    0.00%    passed     97.73%
+ 170  CY009252date571.4    0.00%    passed     99.05%
+ 171  CY001045date569.6    0.00%    passed     99.14%
+ 172  CY001624date565.1    0.00%    passed     99.09%
+ 173  CY009244date563.9    0.00%    passed     99.38%
+ 174  CY008868date564.6    0.06%    passed     98.86%
+ 175  CY008892date567.6    0.00%    passed     98.54%
+ 176  CY000193date567.7    0.00%    passed     99.09%
+ 177  CY000001date568.3    0.00%    passed     99.09%
+ 178  CY001229date570.6    0.00%    passed     99.54%
+ 179  CY009260date571.9    0.00%    passed     99.54%
+ 180  CY001053date563.4    0.00%    passed     99.14%
+ 181  CY001421date565.6    0.00%    passed     99.14%
+ 182  CY008884date566.6    0.00%    passed     99.14%
+ 183  CY000065date566.7    0.00%    passed     99.14%
+ 184  CY000917date568.1    0.00%    passed     99.14%
+ 185  CY001029date570.6    0.00%    passed     99.14%
+ 186  CY001640date565.1    0.00%    passed     98.19%
+ 187  CY000025date565.3    0.00%    passed     97.67%
+ 188  CY006859date533.9    0.00%    passed     97.31%
+ 189  CY003680date520.6    0.00%    passed     94.84%
+ 190  CY001013date527.3    0.00%    passed     97.31%
+ 191  CY001469date535.9    0.00%    passed     97.31%
+ 192  CY001373date532.0    0.00%    passed     96.85%
+ 193  CY001536date524.9    0.00%    passed     97.61%
+ 194  CY001253date529.1    0.00%    passed     98.44%
+ 195  CY012224date97.7     0.00%    passed     98.86%
+ 196  CY017291date109.0    0.00%    passed     98.91%
+ 197  CY011360date103.0    0.00%    passed     99.11%
+ 198  CY012472date112.0    0.00%    passed     96.74%
+ 199  CY012232date103.3    0.00%    passed     96.75%
+ 200  CY012896date104.6    0.00%    passed     96.75%
+ 201  CY011336date101.7    0.00%    passed     98.23%
+ 202  CY011496date109.1    0.00%    passed     98.23%
+ 203  CY011528date103.3    0.00%    passed     97.13%
+ 204  CY011328date110.4    0.00%    passed     97.13%
+ 205  CY012256date110.3    0.00%    passed     96.75%
+ 206  CY012904date110.6    0.00%    passed     96.75%
+ 207  CY011520date99.7     0.00%    passed     96.16%
+ 208  CY011544date104.1    0.00%    passed     96.75%
+ 209  CY011824date105.0    0.00%    passed     97.36%
+ 210  CY011560date110.6    0.00%    passed     98.55%
+ 211  CY011568date113.1    0.00%    passed     97.61%
+ 212  CY011344date107.6    0.00%    passed     97.32%
+ 213  CY012248date108.7    0.00%    passed     97.32%
+ 214  CY013327date99.1     0.00%    passed     97.76%
+ 215  CY011352date106.1    0.00%    passed     98.31%
+ 216  CY011832date107.3    0.47%    passed     95.29%
+ 217  CY011504date98.6     0.00%    passed     97.89%
+ 218  CY012456date99.6     0.00%    passed     97.32%
+ 219  CY012512date102.1    0.00%    passed     97.32%
+ 220  CY012912date106.4    0.00%    passed     98.31%
+ 221  CY017283date107.3    0.00%    passed     98.31%
+ 222  CY012464date100.3    0.00%    passed     97.41%
+ 223  CY012488date102.9    0.00%    passed     97.41%
+ 224  CY012920date104.3    0.00%    passed     97.41%
+ 225  CY011848date104.9    0.00%    passed     97.41%
+ 226  CY012240date105.1    0.00%    passed     97.41%
+ 227  CY012480date107.3    0.00%    passed     97.41%
+ 228  CY000753date522.7    0.00%    passed     99.43%
+ 229  CY001405date533.7    0.00%    passed     99.99%
+ 230  CY001552date533.7    0.00%    passed     99.99%
+ 231  CY001560date533.7    0.00%    passed     99.99%
+ 232  CY000297date468.3    0.00%    passed     98.75%
+ 233  CY000385date465.9    0.00%    passed     99.82%
+ 234  CY000537date474.9    0.00%    passed     99.93%
+ 235  CY001128date470.9    0.00%    passed     99.81%
+ 236  CY000409date471.0    0.00%    passed     99.58%
+ 237  CY003080date460.1    0.00%    passed     99.94%
+ 238  CY000569date465.1    0.00%    passed     99.94%
+ 239  CY000225date468.9    0.00%    passed     99.57%
+ 240  CY001104date470.7    0.00%    passed     99.56%
+ 241  CY001429date467.3    0.00%    passed     99.32%
+ 242  CY001197date477.1    0.00%    passed     99.68%
+ 243  CY000553date470.0    0.00%    passed     99.76%
+ 244  CY000793date470.3    0.00%    passed     99.62%
+ 245  CY000201date465.6    0.00%    passed     99.82%
+ 246  CY003777date469.7    0.00%    passed     99.73%
+ 247  CY001944date474.3    0.00%    passed     99.50%
+ 248  CY003160date470.3    0.00%    passed     99.78%
+ 249  CY003136date467.7    0.00%    passed     99.78%
+ 250  CY000281date474.3    0.00%    passed     99.86%
+ 251  CY003176date471.9    0.00%    passed     99.76%
+ 252  CY000289date468.3    0.00%    passed     99.76%
+ 253  CY000217date473.9    0.00%    passed     99.78%
+ 254  CY001728date473.9    0.00%    passed     99.78%
+ 255  CY002816date416.7    0.00%    passed     99.66%
+ 256  CY003104date466.4    0.00%    passed     99.76%
+ 257  CY001301date471.9    0.00%    passed     99.78%
+ 258  CY000401date467.4    0.00%    passed     99.93%
+ 259  CY000113date469.9    0.00%    passed     99.93%
+ 260  CY000925date472.9    0.00%    passed     99.89%
+ 261  CY003120date466.9    0.00%    passed     99.78%
+ 262  CY003088date465.3    0.00%    passed     99.55%
+ 263  CY000425date469.3    0.00%    passed     99.55%
+ 264  CY001333date470.0    0.00%    passed     99.59%
+ 265  CY003192date474.1    0.00%    passed     99.89%
+ 266  CY000417date469.3    0.00%    passed     99.78%
+ 267  CY001160date531.3    0.00%    passed     99.55%
+ 268  CY001736date475.1    0.00%    passed     99.90%
+ 269  CY003200date468.0    0.00%    passed     99.88%
+ 270  CY001080date469.0    0.00%    passed     99.93%
+ 271  CY000233date470.1    0.00%    passed     99.60%
+ 272  CY000433date469.6    0.00%    passed     99.81%
+ 273  CY001144date468.0    0.00%    passed     99.66%
+ 274  CY000489date468.6    0.00%    passed     99.59%
+ 275  CY000313date471.9    0.00%    passed     99.66%
+ 276  CY001152date468.4    0.00%    passed     99.45%
+ 277  CY001168date465.0    0.00%    passed     99.87%
+ 278  CY001072date473.9    0.00%    passed     99.78%
+ 279  CY000585date475.7    0.00%    passed     99.83%
+ 280  CY000337date472.1    0.00%    passed     99.87%
+ 281  CY000481date460.3    0.00%    passed     99.60%
+ 282  CY000305date461.0    0.00%    passed     99.66%
+ 283  CY003096date466.3    0.00%    passed     99.45%
+ 284  CY003152date468.9    0.00%    passed     99.93%
+ 285  CY000321date464.7    0.00%    passed     99.77%
+ 286  CY000273date465.1    0.00%    passed     99.87%
+ 287  CY003112date466.7    0.06%    passed     99.92%
+ 288  CY003123date467.3    0.06%    passed     99.75%
+ 289  CY001437date467.7    0.00%    passed     99.87%
+ 290  CY013805date470.3    0.06%    passed     99.86%
+ 291  CY000933date470.7    0.00%    passed     99.78%
+ 292  CY001261date472.9    0.00%    passed     99.87%
+ 293  CY003184date473.3    0.00%    passed     99.72%
+ 294  CY000185date463.6    0.00%    passed     99.87%
+ 295  CY001309date472.0    0.00%    passed     99.87%
+ 296  CY003144date467.9    0.00%    passed     99.90%
+ 297  CY000545date471.1    0.00%    passed     99.90%
+ 298  CY000393date466.9    0.00%    passed     99.77%
+ 299  CY003424date466.9    0.00%    passed     99.90%
+ 300  CY000209date468.1    0.00%    passed     99.77%
+ 301  CY003208date468.3    0.00%    passed     99.87%
+ 302  CY001317date469.0    0.00%    passed     99.72%
+ 303  CY003168date471.3    0.00%    passed     99.90%
+ 304  CY001720date465.6    0.00%    passed     99.87%
+ 305  CY002128date466.3    0.00%    passed     99.87%
+ 306  CY001184date468.1    0.00%    passed     99.87%
+ 307  CY001325date469.9    0.00%    passed     99.87%
+ 308  CY000329date471.0    0.00%    passed     99.87%
+ 309  CY000241date473.9    0.00%    passed     99.87%
+ 310  CY000497date470.1    0.00%    passed     99.91%
+ 311  CY000625date472.9    0.00%    passed     99.95%
+ 312  CY001237date476.9    0.06%    passed     99.98%
+ 313  CY000584date465.9    0.00%    passed     99.93%
+ 314  CY000941date469.9    0.00%    passed     99.97%
+ 315  CY002328date465.1    0.00%    passed     99.97%
+ 316  CY000441date466.3    0.00%    passed     99.97%
+ 317  CY000529date470.0    0.00%    passed     99.97%
+ 318  CY000873date522.9    0.00%    passed     98.06%
+ 319  CY001461date524.7    0.00%    passed     97.60%
+ 320  CY000865date524.9    0.00%    passed     96.76%
+ 321  CY001544date528.1    0.00%    passed     97.22%
+ 322  CY001528date359.3    0.06%    passed     99.22%
+ 323  CY000801date354.4    0.00%    passed     99.60%
+ 324  CY001136date364.3    0.00%    passed     99.22%
+ 325  CY001365date365.6    0.00%    passed     99.90%
+ 326  CY001397date362.4    0.00%    passed     99.19%
+ 327  CY000833date364.1    0.06%    passed     98.85%
+ 328  CY000665date362.4    0.00%    passed     99.85%
+ 329  CY003256date363.0    0.00%    passed     99.96%
+ 330  CY001520date367.0    0.00%    passed     99.64%
+ 331  CY003825date365.1    0.00%    passed     99.82%
+ 332  CY000849date370.3    0.00%    passed     99.31%
+ 333  CY000857date360.9    0.00%    passed     99.69%
+ 334  CY001453date360.3    0.00%    passed     98.99%
+ 335  CY000689date366.4    0.00%    passed     99.90%
+ 336  CY000641date360.6    0.00%    passed     99.96%
+ 337  CY000809date360.9    0.00%    passed     99.96%
+ 338  CY003785date359.6    0.00%    passed     99.96%
+ 339  CY003232date361.3    0.00%    passed     99.67%
+ 340  CY000673date361.7    0.00%    passed     99.79%
+ 341  CY003248date362.4    0.00%    passed     99.39%
+ 342  CY000705date362.6    0.00%    passed     99.88%
+ 343  CY003272date363.4    0.00%    passed     99.72%
+ 344  CY000737date367.4    0.00%    passed     99.88%
+ 345  CY000593date356.4    0.00%    passed     99.72%
+ 346  CY000601date358.0    0.00%    passed     99.87%
+ 347  CY001349date358.0    0.00%    passed     99.87%
+ 348  CY000633date356.9    0.00%    passed     99.85%
+ 349  CY001176date358.1    0.00%    passed     99.85%
+ 350  CY003216date359.7    0.00%    passed     99.69%
+ 351  CY001269date361.3    0.00%    passed     99.96%
+ 352  CY000997date364.3    0.00%    passed     99.85%
+ 353  CY003456date365.0    0.00%    passed     99.72%
+ 354  CY000609date365.1    0.00%    passed     99.96%
+ 355  CY000817date367.4    0.00%    passed     99.96%
+ 356  CY001245date367.4    0.00%    passed     99.96%
+ 357  CY001357date357.6    0.00%    passed     99.88%
+ 358  CY001005date360.3    0.00%    passed     99.88%
+ 359  CY000745date361.0    0.00%    passed     99.88%
+ 360  CY000465date365.7    0.00%    passed     99.88%
+ 361  CY003817date362.4    0.00%    passed     99.84%
+ 362  CY000825date359.6    0.06%    passed     99.90%
+ 363  CY002312date358.7    0.00%    passed     99.88%
+ 364  CY003224date360.3    0.00%    passed     99.96%
+ 365  CY003280date364.3    0.00%    passed     99.96%
+ 366  CY001445date358.4    0.00%    passed     99.43%
+ 367  CY003448date362.1    0.00%    passed     99.84%
+ 368  CY000729date356.6    0.00%    passed     99.69%
+ 369  CY003809date362.1    0.00%    passed     99.88%
+ 370  CY001277date368.7    0.00%    passed     99.67%
+ 371  CY003264date363.1    0.00%    passed     99.51%
+ 372  CY000617date359.7    0.00%    passed     99.51%
+ 373  CY000981date362.1    0.00%    passed     99.51%
+ 374  CY003440date359.9    0.00%    passed     99.36%
+ 375  CY003432date361.9    0.00%    passed     99.85%
+ 376  CY003240date362.1    0.00%    passed     99.72%
+ 377  CY000697date362.3    0.00%    passed     99.72%
+ 378  CY000713date370.4    0.00%    passed     99.85%
+ 379  CY000457date357.3    0.00%    passed     99.67%
+ 380  CY002512date361.3    0.00%    passed     99.67%
+ 381  CY000841date362.1    0.00%    passed     99.67%
+ 382  CY000657date362.1    0.00%    passed     99.57%
+ 383  CY000649date361.7    0.00%    passed     99.72%
+ 384  CY000681date361.1    0.00%    passed     99.17%
+ 385  CY001493date307.1    0.00%    passed     99.89%
+ 386  CY001672date309.6    0.00%    passed     99.89%
+ 387  CY001832date310.6    0.00%    passed     99.89%
+ 388  CY001616date313.9    0.00%    passed     99.89%
+ 389  CY001976date313.4    0.00%    passed     99.91%
+ 390  CY003624date312.9    0.00%    passed     96.95%
+ 391  CY003608date311.9    0.00%    passed     97.64%
+ 392  CY001904date312.6    0.00%    passed     98.15%
+ 393  CY001968date314.7    0.00%    passed     98.33%
+ 394  CY002160date313.4    0.00%    passed     99.43%
+ 395  CY001413date315.6    0.00%    passed     99.23%
+ 396  CY001381date354.4    0.00%    passed     99.56%
+ 397  CY003793date359.7    0.00%    passed     99.83%
+ 398  CY000989date349.1    0.00%    passed     99.44%
+ 399  CY001120date349.3    0.00%    passed     99.44%
+ 400  CY006659date363.0    0.00%    passed     99.44%
+ 401  CY006068date311.7    0.00%    passed     99.53%
+ 402  CY002544date309.4    0.00%    passed     99.99%
+ 403  CY006899date313.3    0.00%    passed     99.46%
+ 404  CY002136date315.9    0.00%    passed     99.23%
+ 405  CY001744date310.9    0.00%    passed     99.23%
+ 406  CY006060date311.3    0.00%    passed     99.85%
+ 407  CY001504date301.4    0.00%    passed     99.77%
+ 408  CY006283date258.1    0.00%    passed     99.96%
+ 409  CY006579date263.6    0.00%    passed     99.86%
+ 410  CY007979date257.6    0.00%    passed     99.89%
+ 411  CY006491date258.4    0.00%    passed     99.69%
+ 412  CY006499date260.4    0.00%    passed     99.55%
+ 413  CY006235date253.7    0.00%    passed     99.43%
+ 414  CY006787date262.4    0.00%    passed     99.83%
+ 415  CY006507date257.9    0.00%    passed     99.84%
+ 416  CY006619date261.4    0.00%    passed     99.97%
+ 417  CY006635date263.9    0.00%    passed     99.55%
+ 418  CY003560date304.4    0.00%    passed     99.85%
+ 419  CY001784date306.0    0.00%    passed     99.85%
+ 420  CY002576date315.4    0.00%    passed     99.97%
+ 421  CY006531date266.6    0.00%    passed     99.58%
+ 422  CY006451date256.7    0.00%    passed     99.83%
+ 423  CY008940date259.6    0.00%    passed     99.66%
+ 424  CY008532date262.4    0.00%    passed     99.83%
+ 425  CY006571date261.9    0.00%    passed     99.37%
+ 426  CY006515date262.4    0.00%    passed     99.92%
+ 427  CY006483date264.0    0.00%    passed     99.92%
+ 428  CY006603date264.6    0.00%    passed     99.89%
+ 429  CY006227date253.3    0.00%    passed     99.89%
+ 430  CY006243date256.6    0.00%    passed     99.95%
+ 431  CY006467date257.1    0.00%    passed     99.95%
+ 432  CY006627date257.4    0.00%    passed     99.99%
+ 433  CY008924date257.9    0.00%    passed     99.74%
+ 434  CY006459date261.9    0.00%    passed     99.96%
+ 435  CY006595date264.9    0.00%    passed     99.82%
+ 436  CY006547date265.3    0.00%    passed     99.95%
+ 437  CY008180date269.0    0.00%    passed     99.74%
+ 438  CY006259date255.9    0.00%    passed     99.92%
+ 439  CY008932date255.9    0.00%    passed     99.92%
+ 440  CY006275date256.4    0.00%    passed     99.92%
+ 441  CY006267date256.9    0.00%    passed     99.92%
+ 442  CY006523date257.9    0.00%    passed     99.92%
+ 443  CY008956date260.4    0.00%    passed     99.92%
+ 444  CY008972date260.4    0.00%    passed     99.92%
+ 445  CY006251date265.0    0.00%    passed     99.92%
+ 446  CY006771date266.9    0.00%    passed     99.84%
+ 447  CY009988date262.6    0.00%    passed     99.95%
+ 448  CY006795date268.3    0.00%    passed     99.94%
+ 449  CY006539date258.9    0.00%    passed     99.97%
+ 450  CY006555date260.3    0.00%    passed     99.97%
+ 451  CY006611date257.1    0.00%    passed     99.84%
+ 452  CY006803date263.3    0.00%    passed     99.99%
+ 453  CY008948date266.1    0.00%    passed     99.99%
+ 454  CY006563date262.3    0.00%    passed     99.99%
+ 455  CY008964date264.3    0.00%    passed     99.66%
+ 456  CY006443date252.9    0.00%    passed     99.83%
+ 457  CY008980date261.3    0.00%    passed     99.89%
+ 458  CY001912date317.6    0.00%    passed     99.99%
+ 459  CY003801date348.4    0.00%    passed     99.82%
+ 460  CY001656date319.3    0.00%    passed     99.93%
+ 461  CY001920date319.3    0.00%    passed     99.93%
+ 462  CY002304date321.6    0.00%    passed     99.82%
+ 463  CY000721date352.3    0.00%    passed     99.91%
+ 464  CY006163date314.7    0.00%    passed     99.86%
+ 465  CY001776date317.9    0.00%    passed     99.50%
+ 466  CY002368date317.9    0.00%    passed     99.50%
+ 467  CY001880date321.6    0.00%    passed     99.94%
+ 468  CY001936date313.0    0.00%    passed     99.95%
+ 469  CY001960date315.7    0.00%    passed     99.95%
+ 470  CY001485date307.1    0.00%    passed     99.76%
+ 471  CY003600date311.6    0.00%    passed     99.86%
+ 472  CY003616date311.9    0.00%    passed     99.89%
+ 473  CY002296date312.4    0.00%    passed     99.95%
+ 474  CY007635date312.7    0.00%    passed     99.95%
+ 475  CY003632date313.3    0.00%    passed     99.87%
+ 476  CY001768date315.7    0.00%    passed     99.91%
+ 477  CY001992date316.6    0.00%    passed     99.76%
+ 478  CY001608date318.6    0.00%    passed     99.79%
+ 479  CY001664date320.9    0.00%    passed     99.95%
+ 480  CY002560date323.9    0.00%    passed     99.79%
+ 481  CY002336date327.7    0.00%    passed     99.66%
+ 482  CY003584date311.3    0.00%    passed     99.97%
+ 483  CY003592date311.4    0.00%    passed     99.89%
+ 484  CY002120date309.9    0.00%    passed     99.97%
+ 485  CY002552date311.4    0.00%    passed     99.91%
+ 486  CY001477date309.4    0.00%    passed     99.95%
+ 487  CY002376date309.4    0.00%    passed     99.95%
+ 488  CY001688date314.4    0.06%    passed     99.85%
+ 489  CY001808date318.3    0.00%    passed     99.84%
+ 490  CY001840date310.3    0.00%    passed     99.86%
+ 491  CY001568date309.4    0.00%    passed     99.87%
+ 492  CY001816date309.4    0.00%    passed     99.87%
+ 493  CY001872date313.3    0.00%    passed     99.86%
+ 494  CY001792date316.6    0.00%    passed     99.89%
+ 495  CY001696date315.6    0.00%    passed     99.97%
+ 496  CY001752date317.4    0.00%    passed     99.97%
+ 497  CY001576date321.9    0.00%    passed     99.86%
+ 498  CY001856date321.9    0.00%    passed     99.86%
+ 499  CY001760date324.3    0.00%    passed     99.86%
+ 500  CY002384date309.7    0.00%    passed     99.95%
+ 501  CY001864date312.1    0.00%    passed     99.89%
+ 502  CY001600date313.3    0.00%    passed     99.95%
+ 503  CY001592date314.4    0.00%    passed     99.95%
+ 504  CY001824date314.6    0.00%    passed     99.95%
+ 505  CY002168date320.7    0.00%    passed     99.89%
+ 506  CY001584date309.7    0.00%    passed     99.95%
+ 507  CY001800date309.7    0.00%    passed     99.95%
+ 508  CY003568date310.3    0.00%    passed     99.95%
+ 509  CY003576date310.9    0.00%    passed     99.95%
+ 510  CY002144date313.3    0.00%    passed     99.95%
+ 511  CY001984date313.7    0.00%    passed     99.95%
+ 512  CY001888date314.3    0.00%    passed     99.95%
+ 513  CY001848date314.4    0.00%    passed     99.95%
+ 514  CY001704date314.6    0.00%    passed     99.95%
+ 515  CY001928date315.3    0.00%    passed     99.95%
+ 516  CY001896date316.4    0.00%    passed     99.95%
+ 517  CY010020date201.9    0.00%    passed     99.05%
+ 518  CY011416date204.1    0.00%    passed     99.65%
+ 519  CY010060date203.3    0.00%    passed     99.86%
+ 520  CY009484date206.1    0.00%    passed     99.63%
+ 521  CY009732date204.1    0.00%    passed     99.79%
+ 522  CY010028date204.4    0.00%    passed     99.79%
+ 523  CY011136date204.9    0.00%    passed     99.97%
+ 524  CY009724date205.6    0.00%    passed     99.97%
+ 525  CY009748date206.6    0.00%    passed    100.00%
+ 526  CY012208date204.0    0.00%    passed     99.98%
+ 527  CY010596date205.4    0.00%    passed     99.98%
+ 528  CY010612date202.9    0.00%    passed     99.67%
+ 529  CY011256date200.3    0.00%    passed     99.86%
+ 530  CY010012date202.3    0.00%    passed     99.95%
+ 531  CY011424date205.0    0.00%    passed     99.89%
+ 532  CY012848date199.0    0.00%    passed     99.95%
+ 533  CY009708date204.6    0.00%    passed     99.95%
+ 534  CY009492date203.3    0.00%    passed     99.30%
+ 535  CY010052date204.1    0.00%    passed     99.30%
+ 536  CY011264date200.9    0.00%    passed     99.23%
+ 537  CY015516date202.9    0.00%    passed     99.72%
+ 538  CY010604date204.7    0.00%    passed     99.52%
+ 539  CY009660date203.1    0.00%    passed     99.58%
+ 540  CY010004date199.0    0.00%    passed     99.91%
+ 541  CY009500date204.9    0.00%    passed     99.84%
+ 542  CY010796date204.9    0.00%    passed     99.84%
+ 543  CY012200date200.0    0.00%    passed     99.57%
+ 544  CY009644date206.6    0.00%    passed     98.89%
+ 545  CY009908date202.9    0.00%    passed     98.38%
+ 546  CY009700date208.9    0.00%    passed     98.53%
+ 547  CY009900date206.0    0.00%    passed     98.68%
+ 548  CY009996date203.4    0.00%    passed     99.37%
+ 549  CY011816date166.9    0.00%    passed     99.37%
+ 550  CY010716date167.3    0.00%    passed     98.53%
+ 551  CY010516date165.0    0.00%    passed     98.68%
+ 552  CY010628date166.9    0.00%    passed     99.22%
+ 553  CY009716date199.9    0.00%    passed     99.64%
+ 554  CY009516date206.0    0.00%    passed     99.64%
+ 555  CY009692date208.1    0.00%    passed     99.64%
+ 556  CY009468date206.0    0.00%    passed     99.65%
+ 557  CY009652date208.1    0.00%    passed     99.37%
+ 558  CY009476date201.9    0.00%    passed     99.57%
+ 559  CY009460date206.6    0.00%    passed     99.63%
+ 560  CY009676date206.6    0.00%    passed     99.83%
+ 561  CY010044date199.9    0.00%    passed     99.77%
+ 562  CY009684date202.3    0.00%    passed     99.77%
+ 563  CY009668date203.3    0.00%    passed     99.77%
+ 564  CY010588date203.3    0.00%    passed     99.77%
+ 565  CY011128date203.9    0.00%    passed     99.77%
+ 566  CY009508date204.0    0.00%    passed     99.77%
+ 567  CY010068date204.9    0.00%    passed     99.77%
+ 568  CY009524date214.3    0.00%    passed     99.77%
+ 569  CY006587date267.9    0.00%    passed     98.68%
+ 570  CY006475date258.4    0.00%    passed     99.11%
+ 571  CY010036date202.1    0.00%    passed     99.57%
+ 572  CY009740date203.0    0.00%    passed     99.83%
+ 573  CY012128date2.6      0.00%    passed     95.86%
+ 574  CY012528date54.1     0.00%    passed     94.28%
+ 575  CY013168date0.0      0.00%    passed     94.73%
+ 576  CY012736date6.7      0.00%    passed     88.86%
+ 577  CY012144date3.4      0.00%    passed     93.02%
+ 578  CY012968date51.7     0.00%    passed     94.57%
+ 579  CY011888date52.1     0.00%    passed     94.08%
+ 580  CY013733date6.7      0.00%    passed     97.61%
+ 581  CY013192date11.0     0.00%    passed     96.85%
+ 582  CY011880date79.7     0.00%    passed     90.82%
+ 583  CY011488date93.6     0.00%    passed     96.85%
+ 584  CY013645date10.6     0.00%    passed     97.41%
+ 585  CY012728date11.3     0.00%    passed     97.41%
+ 586  CY013701date11.3     0.00%    passed     98.55%
+ 587  CY012184date6.6      0.00%    passed     98.29%
+ 588  CY013208date9.9      0.00%    passed     99.37%
+ 589  CY013669date6.4      0.00%    passed     98.68%
+ 590  CY012168date9.9      0.00%    passed     98.68%
+ 591  CY014151date4.7      0.00%    passed     99.25%
+ 592  CY016483date7.7      0.00%    passed     99.12%
+ 593  CY013661date4.7      0.00%    passed     99.25%
+ 594  CY012136date7.3      0.00%    passed     99.25%
+ 595  CY013637date7.6      0.06%    passed     98.35%
+ 596  CY013725date7.4      0.00%    passed     97.89%
+ 597  CY013765date7.6      0.00%    passed     97.89%
+ 598  CY014143date2.4      0.00%    passed     99.25%
+ 599  CY013685date7.6      0.00%    passed     98.53%
+ 600  CY012784date8.4      0.00%    passed     98.68%
+ 601  CY012776date2.3      0.00%    passed     98.68%
+ 602  CY012768date2.4      0.00%    passed     98.68%
+ 603  CY012160date2.7      0.00%    passed     98.68%
+ 604  CY013709date2.7      0.00%    passed     98.68%
+ 605  CY013741date2.7      0.00%    passed     98.68%
+ 606  CY013653date5.7      0.00%    passed     98.68%
+ 607  CY012152date6.6      0.06%    passed     96.80%
+ 608  CY012760date9.0      0.00%    passed     96.55%
+ 609  CY013605date9.9      0.00%    passed     97.97%
+ 610  CY013200date10.7     0.00%    passed     95.85%
+ 611  CY012120date2.4      0.00%    passed     98.22%
+ 612  CY013693date5.9      0.00%    passed     96.15%
+ 613  CY013613date4.3      0.00%    passed     97.97%
+ 614  CY012752date7.7      0.00%    passed     97.97%
+ 615  CY013176date7.9      0.00%    passed     97.97%
+ 616  CY013781date6.4      0.00%    passed     97.72%
+ 617  CY013717date7.7      0.00%    passed     95.85%
+ 618  CY012176date5.4      0.00%    passed     97.03%
+ 619  CY013621date7.4      0.00%    passed     97.03%
+ 620  CY013757date7.4      0.00%    passed     97.03%
+ 621  CY013789date7.4      0.00%    passed     97.03%
+ 622  CY013773date7.6      0.00%    passed     97.03%
+ 623  CY013629date8.4      0.00%    passed     97.03%
+ 624  CY013749date8.4      0.00%    passed     97.03%
+ 625  CY013184date9.9      0.00%    passed     97.03%
+ 626  CY012744date13.3     0.00%    passed     96.67%
+ 627  CY013677date13.3     0.00%    passed     95.85%
+ 628  CY013887date52.4     0.12%    passed     93.27%
+ 629  CY012992date56.1     0.00%    passed     89.68%
+ 630  CY012448date95.6     0.00%    passed     89.96%
+ 631  CY012576date51.4     0.00%    passed     96.65%
+ 632  CY012536date55.6     0.00%    passed     94.39%
+ 633  CY012584date52.1     0.00%    passed     96.15%
+ 634  CY010988date55.1     0.00%    passed     93.75%
+ 635  CY011920date55.4     0.00%    passed     95.32%
+ 636  CY013367date55.1     0.00%    passed     92.09%
+ 637  CY012944date50.0     0.00%    passed     88.86%
+ 638  CY013335date59.4     0.00%    passed     91.87%
+ 639  CY013359date52.3     0.00%    passed     91.01%
+ 640  CY011576date42.3     0.00%    passed     89.94%
+ 641  CY011856date50.6     0.00%    passed     90.64%
+ 642  CY012560date51.7     0.00%    passed     89.68%
+ 643  CY016427date49.7     0.00%    passed     92.08%
+ 644  CY012952date53.6     0.00%    passed     88.86%
+ 645  CY012552date56.1     0.00%    passed     91.01%
+ 646  CY012264date58.4     0.00%    passed     88.86%
+ 647  CY011376date51.3     0.00%    passed     91.14%
+ 648  CY013000date51.9     0.00%    passed     91.14%
+ 649  CY011872date45.7     0.00%    passed     93.02%
+ 650  CY012280date50.3     0.00%    passed     91.02%
+ 651  CY015540date54.6     0.00%    passed     97.41%
+ 652  CY011944date49.7     0.00%    passed     93.02%
+ 653  CY017307date50.1     0.00%    passed     93.02%
+ 654  CY012288date50.6     0.00%    passed     93.02%
+ 655  CY013351date50.7     0.00%    passed     93.02%
+ 656  CY013343date51.1     0.00%    passed     93.02%
+ 657  CY011912date51.6     0.00%    passed     94.73%
+ 658  CY011384date50.6     0.00%    passed     93.13%
+ 659  CY011896date52.6     0.00%    passed     94.73%
+ 660  CY012976date52.7     0.00%    passed     96.26%
+ 661  CY012272date57.7     0.00%    passed     96.26%
+ 662  CY011864date51.4     0.00%    passed     94.83%
+ 663  CY011928date54.1     0.00%    passed     94.83%
+ 664  CY011936date54.3     0.00%    passed     94.83%
+ 665  CY012984date54.7     0.00%    passed     97.03%
+ 666  CY012936date55.4     0.00%    passed     95.32%
+ 667  CY013024date56.3     0.00%    passed     93.19%
+ 668  CY012544date55.4     0.00%    passed     93.30%
+ 669  CY012568date57.1     0.00%    passed     92.66%
+ 670  CY013008date58.6     0.00%    passed     93.83%
+ 671  CY011904date53.1     0.00%    passed     94.39%
+ 672  CY012960date54.0     0.00%    passed     94.39%
+ 673  CY012592date51.3     0.00%    passed     93.01%
+ 674  CY013016date53.3     0.00%    passed     91.01%
+ 675  CY017299date109.4    0.00%    passed     99.54%
+ 676  CY011536date102.6    0.00%    passed     97.97%
+ 677  CY013311date110.4    0.00%    passed     97.57%
+ 678  CY010700date155.9    0.00%    passed     98.89%
+ 679  CY011440date162.4    0.00%    passed     98.89%
+ 680  CY011320date104.3    0.00%    passed     97.69%
+ 681  CY013319date104.3    0.00%    passed     97.69%
+ 682  CY011512date103.0    0.00%    passed     99.29%
+ 683  CY011368date105.1    0.00%    passed     99.29%
+ 684  CY012928date107.1    0.00%    passed     99.29%
+ 685  CY012520date108.1    0.00%    passed     98.90%
+ 686  CY011552date104.4    0.00%    passed     98.85%
+ 687  CY012504date104.6    0.00%    passed     98.85%
+ 688  CY011840date107.0    0.00%    passed     98.85%
+ 689  CY012496date108.7    0.00%    passed     98.85%
+ 690  CY010620date149.1    0.00%    passed     99.18%
+ 691  CY010684date155.1    0.00%    passed     98.68%
+ 692  CY010732date156.1    0.00%    passed     98.90%
+ 693  CY011808date153.3    0.00%    passed     99.18%
+ 694  CY010748date151.4    0.00%    passed     98.68%
+ 695  CY010636date152.0    0.00%    passed     99.52%
+ 696  CY010644date152.0    0.00%    passed     99.18%
+ 697  CY010692date154.9    0.00%    passed     99.18%
+ 698  CY011456date156.9    0.00%    passed     98.90%
+ 699  CY010724date150.6    0.00%    passed     99.96%
+ 700  CY012216date152.0    0.00%    passed     99.95%
+ 701  CY011464date154.1    0.00%    passed     99.80%
+ 702  CY011448date156.3    0.00%    passed     99.85%
+ 703  CY011432date160.4    0.06%    passed     99.91%
+ 704  CY010652date153.4    0.00%    passed     99.76%
+ 705  CY010668date155.1    0.00%    passed     99.25%
+ 706  CY010708date151.1    0.00%    passed     99.63%
+ 707  CY010660date152.1    0.00%    passed     99.63%
+ 708  CY010676date153.4    0.00%    passed     99.63%
+ 709  CY010812date153.6    0.00%    passed     99.63%
+****  TOTAL                0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Reading partition pos12 (model=HKY+G+F, aln=, seq=DNA, pos=1-1701\1,1-1701\2) ...
+709 sequences and 2552 sites extracted
+
+Reading partition pos3 (model=HKY+G+F, aln=, seq=DNA, pos=1-1701\3) ...
+709 sequences and 567 sites extracted
+Degree of missing data: 0.000
+
+NOTE: 174 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: CY007643date615.9 (identical to CY002424date615.9) is ignored but added at the end
+NOTE: CY019141date620.7 (identical to CY002224date620.7) is ignored but added at the end
+NOTE: CY019149date620.7 (identical to CY002224date620.7) is ignored but added at the end
+NOTE: CY019157date620.7 (identical to CY002224date620.7) is ignored but added at the end
+NOTE: CY019165date620.7 (identical to CY002224date620.7) is ignored but added at the end
+NOTE: CY019811date620.7 (identical to CY002224date620.7) is ignored but added at the end
+NOTE: CY006155date624.3 (identical to CY006435date614.9) is ignored but added at the end
+NOTE: CY002040date620.7 (identical to CY006115date613.4) is ignored but added at the end
+NOTE: CY002608date614.9 (identical to CY002760date614.1) is ignored but added at the end
+NOTE: CY002768date616.4 (identical to CY002760date614.1) is ignored but added at the end
+NOTE: CY002200date622.1 (identical to CY002760date614.1) is ignored but added at the end
+NOTE: CY006123date622.7 (identical to CY002760date614.1) is ignored but added at the end
+NOTE: CY002504date618.6 (identical to CY002712date614.4) is ignored but added at the end
+NOTE: CY009268date619.0 (identical to CY002712date614.4) is ignored but added at the end
+NOTE: CY006139date626.3 (identical to CY002016date622.1) is ignored but added at the end
+NOTE: CY002592date620.4 (identical to CY003072date619.9) is ignored but added at the end
+NOTE: CY006084date631.3 (identical to CY003072date619.9) is ignored but added at the end
+NOTE: CY002776date628.3 (identical to CY002208date620.4) is ignored but added at the end
+NOTE: CY019173date621.4 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY019181date621.4 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY019245date621.4 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY019253date621.4 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY019261date621.4 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY019819date621.4 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY021989date621.4 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY002248date621.6 (identical to CY002232date621.4) is ignored but added at the end
+NOTE: CY019277date623.1 (identical to CY019269date623.1) is ignored but added at the end
+NOTE: CY019285date623.1 (identical to CY019269date623.1) is ignored but added at the end
+NOTE: CY019293date623.1 (identical to CY019269date623.1) is ignored but added at the end
+NOTE: CY020533date623.1 (identical to CY019269date623.1) is ignored but added at the end
+NOTE: CY002784date618.9 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY003344date622.3 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY019189date623.1 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY019301date623.1 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY019309date623.1 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY019317date623.1 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY020053date623.1 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY002448date628.4 (identical to CY002176date617.7) is ignored but added at the end
+NOTE: CY006179date607.4 (identical to CY003656date607.0) is ignored but added at the end
+NOTE: CY002288date618.9 (identical to CY008516date611.6) is ignored but added at the end
+NOTE: CY000881date566.9 (identical to CY008900date564.1) is ignored but added at the end
+NOTE: CY008876date569.9 (identical to CY008900date564.1) is ignored but added at the end
+NOTE: CY000017date565.7 (identical to CY001037date561.1) is ignored but added at the end
+NOTE: CY000505date566.6 (identical to CY001037date561.1) is ignored but added at the end
+NOTE: CY000369date570.4 (identical to CY000345date562.9) is ignored but added at the end
+NOTE: CY000353date564.9 (identical to CY001112date560.7) is ignored but added at the end
+NOTE: CY001088date565.6 (identical to CY001112date560.7) is ignored but added at the end
+NOTE: CY000041date565.9 (identical to CY001112date560.7) is ignored but added at the end
+NOTE: CY001096date566.0 (identical to CY001112date560.7) is ignored but added at the end
+NOTE: CY000265date567.0 (identical to CY001112date560.7) is ignored but added at the end
+NOTE: CY000521date567.1 (identical to CY001112date560.7) is ignored but added at the end
+NOTE: CY002344date565.1 (identical to CY001712date565.1) is ignored but added at the end
+NOTE: CY000097date566.9 (identical to CY000153date566.6) is ignored but added at the end
+NOTE: CY001205date567.7 (identical to CY000153date566.6) is ignored but added at the end
+NOTE: CY001213date569.6 (identical to CY000153date566.6) is ignored but added at the end
+NOTE: CY008908date571.6 (identical to CY000153date566.6) is ignored but added at the end
+NOTE: CY000137date565.7 (identical to CY001632date565.0) is ignored but added at the end
+NOTE: CY000057date566.9 (identical to CY000049date566.0) is ignored but added at the end
+NOTE: CY001421date565.6 (identical to CY001053date563.4) is ignored but added at the end
+NOTE: CY008884date566.6 (identical to CY001053date563.4) is ignored but added at the end
+NOTE: CY000065date566.7 (identical to CY001053date563.4) is ignored but added at the end
+NOTE: CY000917date568.1 (identical to CY001053date563.4) is ignored but added at the end
+NOTE: CY001029date570.6 (identical to CY001053date563.4) is ignored but added at the end
+NOTE: CY001469date535.9 (identical to CY001013date527.3) is ignored but added at the end
+NOTE: CY011496date109.1 (identical to CY011336date101.7) is ignored but added at the end
+NOTE: CY011328date110.4 (identical to CY011528date103.3) is ignored but added at the end
+NOTE: CY012904date110.6 (identical to CY012256date110.3) is ignored but added at the end
+NOTE: CY012248date108.7 (identical to CY011344date107.6) is ignored but added at the end
+NOTE: CY012488date102.9 (identical to CY012464date100.3) is ignored but added at the end
+NOTE: CY012920date104.3 (identical to CY012464date100.3) is ignored but added at the end
+NOTE: CY011848date104.9 (identical to CY012464date100.3) is ignored but added at the end
+NOTE: CY012240date105.1 (identical to CY012464date100.3) is ignored but added at the end
+NOTE: CY012480date107.3 (identical to CY012464date100.3) is ignored but added at the end
+NOTE: CY001552date533.7 (identical to CY001405date533.7) is ignored but added at the end
+NOTE: CY001560date533.7 (identical to CY001405date533.7) is ignored but added at the end
+NOTE: CY000569date465.1 (identical to CY003080date460.1) is ignored but added at the end
+NOTE: CY001728date473.9 (identical to CY000217date473.9) is ignored but added at the end
+NOTE: CY000425date469.3 (identical to CY003088date465.3) is ignored but added at the end
+NOTE: CY000545date471.1 (identical to CY003144date467.9) is ignored but added at the end
+NOTE: CY002128date466.3 (identical to CY001720date465.6) is ignored but added at the end
+NOTE: CY001184date468.1 (identical to CY001720date465.6) is ignored but added at the end
+NOTE: CY001325date469.9 (identical to CY001720date465.6) is ignored but added at the end
+NOTE: CY000329date471.0 (identical to CY001720date465.6) is ignored but added at the end
+NOTE: CY000241date473.9 (identical to CY001720date465.6) is ignored but added at the end
+NOTE: CY000441date466.3 (identical to CY002328date465.1) is ignored but added at the end
+NOTE: CY000529date470.0 (identical to CY002328date465.1) is ignored but added at the end
+NOTE: CY000809date360.9 (identical to CY000641date360.6) is ignored but added at the end
+NOTE: CY001349date358.0 (identical to CY000601date358.0) is ignored but added at the end
+NOTE: CY001005date360.3 (identical to CY001357date357.6) is ignored but added at the end
+NOTE: CY000745date361.0 (identical to CY001357date357.6) is ignored but added at the end
+NOTE: CY000465date365.7 (identical to CY001357date357.6) is ignored but added at the end
+NOTE: CY003280date364.3 (identical to CY003224date360.3) is ignored but added at the end
+NOTE: CY000981date362.1 (identical to CY000617date359.7) is ignored but added at the end
+NOTE: CY002512date361.3 (identical to CY000457date357.3) is ignored but added at the end
+NOTE: CY001672date309.6 (identical to CY001493date307.1) is ignored but added at the end
+NOTE: CY001832date310.6 (identical to CY001493date307.1) is ignored but added at the end
+NOTE: CY001616date313.9 (identical to CY001493date307.1) is ignored but added at the end
+NOTE: CY001120date349.3 (identical to CY000989date349.1) is ignored but added at the end
+NOTE: CY001784date306.0 (identical to CY003560date304.4) is ignored but added at the end
+NOTE: CY006467date257.1 (identical to CY006243date256.6) is ignored but added at the end
+NOTE: CY008932date255.9 (identical to CY006259date255.9) is ignored but added at the end
+NOTE: CY006275date256.4 (identical to CY006259date255.9) is ignored but added at the end
+NOTE: CY006267date256.9 (identical to CY006259date255.9) is ignored but added at the end
+NOTE: CY006523date257.9 (identical to CY006259date255.9) is ignored but added at the end
+NOTE: CY008956date260.4 (identical to CY006259date255.9) is ignored but added at the end
+NOTE: CY008972date260.4 (identical to CY006259date255.9) is ignored but added at the end
+NOTE: CY006251date265.0 (identical to CY006259date255.9) is ignored but added at the end
+NOTE: CY006555date260.3 (identical to CY006539date258.9) is ignored but added at the end
+NOTE: CY008948date266.1 (identical to CY006803date263.3) is ignored but added at the end
+NOTE: CY001920date319.3 (identical to CY001656date319.3) is ignored but added at the end
+NOTE: CY002368date317.9 (identical to CY001776date317.9) is ignored but added at the end
+NOTE: CY001960date315.7 (identical to CY001936date313.0) is ignored but added at the end
+NOTE: CY002376date309.4 (identical to CY001477date309.4) is ignored but added at the end
+NOTE: CY001816date309.4 (identical to CY001568date309.4) is ignored but added at the end
+NOTE: CY001752date317.4 (identical to CY001696date315.6) is ignored but added at the end
+NOTE: CY001856date321.9 (identical to CY001576date321.9) is ignored but added at the end
+NOTE: CY001760date324.3 (identical to CY001576date321.9) is ignored but added at the end
+NOTE: CY001800date309.7 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY003568date310.3 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY003576date310.9 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY002144date313.3 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY001984date313.7 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY001888date314.3 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY001848date314.4 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY001704date314.6 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY001928date315.3 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY001896date316.4 (identical to CY001584date309.7) is ignored but added at the end
+NOTE: CY009724date205.6 (identical to CY011136date204.9) is ignored but added at the end
+NOTE: CY010596date205.4 (identical to CY012208date204.0) is ignored but added at the end
+NOTE: CY009708date204.6 (identical to CY012848date199.0) is ignored but added at the end
+NOTE: CY010052date204.1 (identical to CY009492date203.3) is ignored but added at the end
+NOTE: CY010796date204.9 (identical to CY009500date204.9) is ignored but added at the end
+NOTE: CY009516date206.0 (identical to CY009716date199.9) is ignored but added at the end
+NOTE: CY009692date208.1 (identical to CY009716date199.9) is ignored but added at the end
+NOTE: CY009684date202.3 (identical to CY010044date199.9) is ignored but added at the end
+NOTE: CY009668date203.3 (identical to CY010044date199.9) is ignored but added at the end
+NOTE: CY010588date203.3 (identical to CY010044date199.9) is ignored but added at the end
+NOTE: CY011128date203.9 (identical to CY010044date199.9) is ignored but added at the end
+NOTE: CY009508date204.0 (identical to CY010044date199.9) is ignored but added at the end
+NOTE: CY010068date204.9 (identical to CY010044date199.9) is ignored but added at the end
+NOTE: CY009524date214.3 (identical to CY010044date199.9) is ignored but added at the end
+NOTE: CY012728date11.3 (identical to CY013645date10.6) is ignored but added at the end
+NOTE: CY012136date7.3 (identical to CY013661date4.7) is ignored but added at the end
+NOTE: CY013765date7.6 (identical to CY013725date7.4) is ignored but added at the end
+NOTE: CY012768date2.4 (identical to CY012776date2.3) is ignored but added at the end
+NOTE: CY012160date2.7 (identical to CY012776date2.3) is ignored but added at the end
+NOTE: CY013709date2.7 (identical to CY012776date2.3) is ignored but added at the end
+NOTE: CY013741date2.7 (identical to CY012776date2.3) is ignored but added at the end
+NOTE: CY013653date5.7 (identical to CY012776date2.3) is ignored but added at the end
+NOTE: CY013176date7.9 (identical to CY012752date7.7) is ignored but added at the end
+NOTE: CY013621date7.4 (identical to CY012176date5.4) is ignored but added at the end
+NOTE: CY013757date7.4 (identical to CY012176date5.4) is ignored but added at the end
+NOTE: CY013789date7.4 (identical to CY012176date5.4) is ignored but added at the end
+NOTE: CY013773date7.6 (identical to CY012176date5.4) is ignored but added at the end
+NOTE: CY013629date8.4 (identical to CY012176date5.4) is ignored but added at the end
+NOTE: CY013749date8.4 (identical to CY012176date5.4) is ignored but added at the end
+NOTE: CY013184date9.9 (identical to CY012176date5.4) is ignored but added at the end
+NOTE: CY013000date51.9 (identical to CY011376date51.3) is ignored but added at the end
+NOTE: CY017307date50.1 (identical to CY011944date49.7) is ignored but added at the end
+NOTE: CY012288date50.6 (identical to CY011944date49.7) is ignored but added at the end
+NOTE: CY013351date50.7 (identical to CY011944date49.7) is ignored but added at the end
+NOTE: CY013343date51.1 (identical to CY011944date49.7) is ignored but added at the end
+NOTE: CY011928date54.1 (identical to CY011864date51.4) is ignored but added at the end
+NOTE: CY011936date54.3 (identical to CY011864date51.4) is ignored but added at the end
+NOTE: CY012960date54.0 (identical to CY011904date53.1) is ignored but added at the end
+NOTE: CY011440date162.4 (identical to CY010700date155.9) is ignored but added at the end
+NOTE: CY013319date104.3 (identical to CY011320date104.3) is ignored but added at the end
+NOTE: CY012504date104.6 (identical to CY011552date104.4) is ignored but added at the end
+NOTE: CY011840date107.0 (identical to CY011552date104.4) is ignored but added at the end
+NOTE: CY012496date108.7 (identical to CY011552date104.4) is ignored but added at the end
+NOTE: CY010692date154.9 (identical to CY010644date152.0) is ignored but added at the end
+NOTE: CY010660date152.1 (identical to CY010708date151.1) is ignored but added at the end
+NOTE: CY010676date153.4 (identical to CY010708date151.1) is ignored but added at the end
+NOTE: CY010812date153.6 (identical to CY010708date151.1) is ignored but added at the end
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.218 seconds
+
+NOTE: 56 MB RAM is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -22390.387
+Current log-likelihood at step 1: -22293.497
+Current log-likelihood at step 2: -22293.018
+Current log-likelihood at step 3: -22293.013
+Partition-specific rates:  1.043 0.805
+Parameters optimization took 2 rounds (3.765 sec)
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Computing ML distances based on estimated model parameters... 4.927 sec
+Computing BIONJ tree...
+0.856 seconds
+Log-likelihood of BIONJ tree: -22386.895
+Generating 98 parsimony trees... 36.116 seconds 100 distinct starting trees
+Computing log-likelihood of 100 initial trees ... 75.918 seconds
+Optimizing top 20 initial trees with NNI...
+Iteration 1 / LogL: -22283.841 / Time: 0h:2m:6s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -22283.829
+Current log-likelihood at step 1: -22283.798
+Parameters optimization took 0 rounds (0.403 sec)
+
+BETTER TREE FOUND at iteration 1: -22283.798
+Iteration 2 / LogL: -22280.566 / Time: 0h:2m:7s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -22280.561
+Current log-likelihood at step 1: -22280.539
+Parameters optimization took 0 rounds (0.420 sec)
+
+BETTER TREE FOUND at iteration 2: -22280.539
+Iteration 3 / LogL: -22280.028 / Time: 0h:2m:9s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -22280.025
+Current log-likelihood at step 1: -22279.996
+Parameters optimization took 0 rounds (0.406 sec)
+
+BETTER TREE FOUND at iteration 3: -22279.996
+Iteration 4 / LogL: -22281.066 / Time: 0h:2m:11s
+Iteration 5 / LogL: -22282.540 / Time: 0h:2m:12s
+Iteration 6 / LogL: -22284.941 / Time: 0h:2m:13s
+Iteration 7 / LogL: -22279.118 / Time: 0h:2m:14s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -22279.113
+Current log-likelihood at step 1: -22279.051
+Parameters optimization took 0 rounds (0.404 sec)
+
+BETTER TREE FOUND at iteration 7: -22279.051
+Iteration 8 / LogL: -22280.128 / Time: 0h:2m:16s
+Iteration 9 / LogL: -22284.904 / Time: 0h:2m:17s
+Iteration 10 / LogL: -22287.159 / Time: 0h:2m:18s
+Iteration 11 / LogL: -22283.189 / Time: 0h:2m:19s
+Iteration 12 / LogL: -22284.655 / Time: 0h:2m:20s
+Iteration 13 / LogL: -22288.222 / Time: 0h:2m:22s
+Iteration 14 / LogL: -22279.046 / Time: 0h:2m:23s
+Iteration 15 / LogL: -22285.421 / Time: 0h:2m:24s
+Iteration 16 / LogL: -22286.981 / Time: 0h:2m:25s
+Iteration 17 / LogL: -22289.608 / Time: 0h:2m:26s
+Iteration 18 / LogL: -22287.395 / Time: 0h:2m:27s
+Iteration 19 / LogL: -22290.223 / Time: 0h:2m:28s
+Iteration 20 / LogL: -22293.222 / Time: 0h:2m:29s
+Average CPU time for 1 NNI search: 2.410
+Finish initializing candidate tree set. Number of distinct locally optimal trees: 20
+Current best tree score: -22279.046 / CPU time: 144.299
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -22402.715 / Time: 0h:2m:51s (0h:6m:57s left)
+Iteration 40 / LogL: -22397.217 / Time: 0h:3m:14s (0h:5m:2s left)
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -22277.703
+Current log-likelihood at step 1: -22277.664
+Current log-likelihood at step 2: -22277.652
+Current log-likelihood at step 3: -22277.640
+Current log-likelihood at step 4: -22277.633
+Parameters optimization took 3 rounds (1.794 sec)
+
+BETTER TREE FOUND at iteration 45: -22277.633
+Iteration 50 / LogL: -22304.543 / Time: 0h:3m:39s (0h:7m:3s left)
+Iteration 60 / LogL: -22349.472 / Time: 0h:4m:2s (0h:5m:48s left)
+Iteration 70 / LogL: -22399.395 / Time: 0h:4m:25s (0h:4m:47s left)
+Iteration 80 / LogL: -22467.344 / Time: 0h:4m:48s (0h:3m:56s left)
+Iteration 90 / LogL: -22343.661 / Time: 0h:5m:11s (0h:3m:11s left)
+Iteration 100 / LogL: -22351.237 / Time: 0h:5m:34s (0h:2m:31s left)
+Iteration 110 / LogL: -22635.279 / Time: 0h:5m:58s (0h:1m:54s left)
+Iteration 120 / LogL: -22465.493 / Time: 0h:6m:21s (0h:1m:19s left)
+Iteration 130 / LogL: -22365.289 / Time: 0h:6m:43s (0h:0m:46s left)
+Iteration 140 / LogL: -22363.694 / Time: 0h:7m:6s (0h:0m:15s left)
+TREE SEARCH COMPLETED AFTER 145 ITERATIONS / Time: 0h:7m:17s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -22277.627
+Current log-likelihood at step 1: -22277.620
+Partition-specific rates:  1.043 0.805
+Parameters optimization took 0 rounds (0.480 sec)
+
+BEST SCORE FOUND : -22277.620
+Total tree length: 0.764
+
+Total number of iterations: 145
+CPU time used for tree search: 704.614 sec (0h:11m:44s)
+Wall-clock time used for tree search: 424.707 sec (0h:7m:4s)
+Total CPU time used: 718.910 sec (0h:11m:58s)
+Total wall-clock time used: 438.278 sec (0h:7m:18s)
+
+Analysis results written to: 
+  IQ-TREE report:                NewYork.iqtree
+  Maximum-likelihood tree:       NewYork.treefile
+  Likelihood distances:          NewYork.mldist
+  Screen log file:               NewYork.log
+
+Date and Time: Wed Mar 30 16:35:17 2016
